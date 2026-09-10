@@ -36,6 +36,3 @@
 4. Mở phần mềm Hercules trên máy tính (chọn COM tương ứng, baudrate 115200) để xem log UART TX.
 5. Để sử dụng chức năng chẩn đoán, chạy phần mềm BEA2026_Diag_Checker trong thư mục 01_Diagnostic.
 
-## 5. Thông tin tác giả
-- Nhóm: BOSCH - Nhóm 11
-- Github: https://github.com/yandwb
