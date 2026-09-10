@@ -1,0 +1,1885 @@
+2026-08-06 16:26:01 - INFO - Available COM ports: COM10, COM11, COM12, COM6, COM7, COM8, COM9
+2026-08-06 16:26:01 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 16:49:04 - INFO - Available COM ports: COM10, COM11, COM12, COM6, COM7, COM8, COM9
+2026-08-06 16:49:04 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 16:49:14 - INFO - Available COM ports: COM10, COM11, COM12, COM6, COM7, COM8, COM9
+2026-08-06 16:49:20 - WARNING - Not connected. The command was not sent.
+2026-08-06 17:03:00 - INFO - Available COM ports: COM10, COM11, COM12, COM6, COM7, COM8, COM9
+2026-08-06 17:03:00 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 17:04:26 - INFO - Available COM ports: COM10, COM11, COM12, COM6, COM7, COM8, COM9
+2026-08-06 17:04:26 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 17:05:08 - INFO - Available COM ports: COM10, COM11, COM12, COM6, COM7, COM8, COM9
+2026-08-06 17:05:08 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 17:08:16 - INFO - Available COM ports: COM10, COM11, COM12, COM6, COM7, COM8, COM9
+2026-08-06 17:08:16 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 17:10:55 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 17:11:03 - INFO - Connected to COM3 at 115200 baud.
+2026-08-06 17:11:07 - INFO - TX: 12
+2026-08-06 17:11:15 - INFO - TX: 12
+2026-08-06 17:11:19 - INFO - TX: 123213
+2026-08-06 17:11:24 - INFO - TX: 2132132132132132132 656
+2026-08-06 17:11:30 - INFO - TX: 1242131231232135465765766870
+2026-08-06 17:13:09 - INFO - Read DID callback is reserved for 0xF181.
+2026-08-06 17:27:54 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 17:27:54 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 17:27:54 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 17:27:54 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 17:27:54 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 17:28:00 - INFO - Connected to COM3 at 115200 baud.
+2026-08-06 17:28:01 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:28:01 - INFO - TX: 22 F1 80
+2026-08-06 17:28:01 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 17:28:07 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:28:07 - INFO - TX: 22 F1 80
+2026-08-06 17:28:07 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 17:28:07 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:28:07 - INFO - TX: 22 F1 80
+2026-08-06 17:28:07 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 17:29:20 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 17:29:20 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 17:29:20 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 17:29:20 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 17:29:20 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 17:29:20 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:29:20 - ERROR - Read DID failed: Not connected. The command was not sent.
+2026-08-06 17:41:12 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 17:41:12 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 17:41:12 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 17:41:12 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 17:41:12 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 17:41:26 - INFO - Connected to COM10 at 115200 baud.
+2026-08-06 17:41:48 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:41:48 - INFO - TX: 22 F1 80
+2026-08-06 17:41:48 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 17:41:49 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:41:50 - ERROR - Read DID failed: Could not write to the serial port: Write timeout
+2026-08-06 17:42:00 - ERROR - Connection failed: Could not open COM11: could not open port 'COM11': PermissionError(13, 'Access is denied.', None, 5)
+2026-08-06 17:42:04 - INFO - Connected to COM12 at 115200 baud.
+2026-08-06 17:42:07 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:42:07 - INFO - TX: 22 F1 80
+2026-08-06 17:42:07 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 17:42:09 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:42:09 - INFO - TX: 22 F1 80
+2026-08-06 17:42:09 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 17:42:10 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:42:10 - INFO - TX: 22 F1 80
+2026-08-06 17:42:10 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 17:42:12 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:42:12 - INFO - TX: 22 F1 80
+2026-08-06 17:42:12 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 17:42:17 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:42:17 - INFO - TX: 22 F1 80
+2026-08-06 17:42:17 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 17:42:17 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:42:17 - INFO - TX: 22 F1 80
+2026-08-06 17:42:17 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 17:42:18 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:42:18 - INFO - TX: 22 F1 80
+2026-08-06 17:42:18 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 17:50:46 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 17:50:46 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 17:50:46 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 17:50:47 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 17:50:47 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 17:50:50 - ERROR - Connection failed: Could not open COM11: could not open port 'COM11': PermissionError(13, 'Access is denied.', None, 5)
+2026-08-06 17:50:54 - INFO - Connected to COM12 at 115200 baud.
+2026-08-06 17:50:58 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:51:45 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 17:51:45 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 17:51:45 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 17:51:45 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 17:51:45 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 17:51:48 - INFO - Connected to COM12 at 115200 baud.
+2026-08-06 17:51:49 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:57:24 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 17:57:24 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 17:57:24 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 17:57:24 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 17:57:24 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 17:57:28 - INFO - Connected to COM12 at 115200 baud.
+2026-08-06 17:57:30 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 17:57:30 - INFO - TX: 220xF180
+2026-08-06 17:57:30 - ERROR - Read DID failed: Diagnostic service 0x22 returned str, expected bytes.
+2026-08-06 18:05:42 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 18:05:42 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 18:05:42 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 18:05:42 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 18:05:42 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 18:05:57 - INFO - Connected to COM12 at 115200 baud.
+2026-08-06 18:06:09 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:06:09 - INFO - TX: [Hex] 0F FF F0 22 F1 80 F0 00 0F
+2026-08-06 18:06:09 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:06:13 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:06:13 - INFO - TX: [Hex] 0F FF F0 22 F1 80 F0 00 0F
+2026-08-06 18:06:13 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:07:26 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 18:07:26 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 18:07:26 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 18:07:26 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 18:07:26 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 18:07:34 - INFO - Connected to COM12 at 115200 baud.
+2026-08-06 18:07:36 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:07:36 - INFO - TX: [Hex] 0F FF F0 22 F1 80 F0 00 0F
+2026-08-06 18:07:36 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:07:39 - INFO - Request Seed callback is reserved for implementation.
+2026-08-06 18:07:42 - INFO - Request Seed callback is reserved for implementation.
+2026-08-06 18:07:44 - INFO - Send Key callback is reserved for implementation.
+2026-08-06 18:07:45 - INFO - Send Key callback is reserved for implementation.
+2026-08-06 18:08:10 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 18:08:10 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 18:08:10 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 18:08:10 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 18:08:10 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 18:09:22 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 18:09:22 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 18:09:22 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 18:09:22 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 18:09:22 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 18:09:26 - INFO - Connected to COM12 at 115200 baud.
+2026-08-06 18:09:28 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:09:28 - INFO - TX: [Hex] 0F FF F0 22 F1 80 F0 00 0F
+2026-08-06 18:09:28 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:09:31 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:09:31 - INFO - TX: [Hex] 0F FF F0 22 F1 80 F0 00 0F
+2026-08-06 18:09:31 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:09:34 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:09:34 - INFO - TX: [Hex] 0F FF F0 22 F1 80 F0 00 0F
+2026-08-06 18:09:34 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:12:39 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 18:12:39 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 18:12:39 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 18:12:40 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 18:12:40 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 18:13:19 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 18:13:19 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 18:13:19 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 18:13:19 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 18:13:19 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 18:13:25 - INFO - Connected to COM12 at 115200 baud.
+2026-08-06 18:13:26 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:13:26 - INFO - TX: [Hex] 22 F1 80
+2026-08-06 18:13:26 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:13:29 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:13:29 - INFO - TX: [Hex] 22 F1 80
+2026-08-06 18:13:29 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:13:29 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:13:29 - INFO - TX: [Hex] 22 F1 80
+2026-08-06 18:13:29 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:25:05 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 18:25:05 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 18:25:05 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 18:25:05 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 18:25:05 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 18:25:27 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 18:25:27 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 18:25:27 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 18:25:27 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 18:25:27 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 18:25:52 - INFO - Connected to COM12 at 115200 baud.
+2026-08-06 18:25:57 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:25:57 - INFO - TX: [String] 22F180 | HEX: 32 32 46 31 38 30
+2026-08-06 18:25:57 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:26:01 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:26:01 - INFO - TX: [String] 22F180 | HEX: 32 32 46 31 38 30
+2026-08-06 18:26:01 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:26:03 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:26:03 - INFO - TX: [String] 22F180 | HEX: 32 32 46 31 38 30
+2026-08-06 18:26:03 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:26:13 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:26:13 - INFO - TX: [String] 22F180 | HEX: 32 32 46 31 38 30
+2026-08-06 18:26:13 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:26:14 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:26:14 - INFO - TX: [String] 22F180 | HEX: 32 32 46 31 38 30
+2026-08-06 18:26:14 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:26:16 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:26:16 - INFO - TX: [String] 22F180 | HEX: 32 32 46 31 38 30
+2026-08-06 18:26:16 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:26:17 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:26:17 - INFO - TX: [String] 22F180 | HEX: 32 32 46 31 38 30
+2026-08-06 18:26:17 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:26:19 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:26:19 - INFO - TX: [String] 22F180 | HEX: 32 32 46 31 38 30
+2026-08-06 18:26:19 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:26:47 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:26:47 - INFO - TX: [Hex] 22 F1 80
+2026-08-06 18:26:47 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:26:48 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:26:48 - INFO - TX: [Hex] 22 F1 80
+2026-08-06 18:26:48 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:26:49 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:26:49 - INFO - TX: [Hex] 22 F1 80
+2026-08-06 18:26:49 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:26:51 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:26:51 - INFO - TX: [String] 22F180 | HEX: 32 32 46 31 38 30
+2026-08-06 18:26:51 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:26:52 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:26:52 - INFO - TX: [String] 22F180 | HEX: 32 32 46 31 38 30
+2026-08-06 18:26:52 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:26:53 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:26:53 - INFO - TX: [String] 22F180 | HEX: 32 32 46 31 38 30
+2026-08-06 18:26:53 - INFO - UDS 0x22 Read DID request: DID=0xF180
+2026-08-06 18:27:08 - INFO - Write DID callback is reserved for 0xF180 (value length: 5).
+2026-08-06 18:27:13 - INFO - Write DID callback is reserved for 0xF180 (value length: 5).
+2026-08-06 18:27:16 - INFO - Write DID callback is reserved for 0xF180 (value length: 5).
+2026-08-06 18:28:20 - INFO - Disconnected.
+2026-08-06 18:35:10 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 18:35:10 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 18:35:10 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 18:36:12 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 18:36:12 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 18:36:12 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 18:36:12 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 18:36:12 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 18:36:16 - INFO - Connected to COM12 at 115200 baud.
+2026-08-06 18:36:17 - INFO - Disconnected.
+2026-08-06 18:36:20 - INFO - Connected to COM3 at 115200 baud.
+2026-08-06 18:36:24 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:36:24 - INFO - TX: [String] 220123 | HEX: 32 32 30 31 32 33
+2026-08-06 18:36:24 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-06 18:36:28 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:36:28 - INFO - TX: [String] 220123 | HEX: 32 32 30 31 32 33
+2026-08-06 18:36:28 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-06 18:36:48 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:36:48 - INFO - TX: [String] 220124 | HEX: 32 32 30 31 32 34
+2026-08-06 18:36:48 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-06 18:36:50 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:36:50 - INFO - TX: [String] 220124 | HEX: 32 32 30 31 32 34
+2026-08-06 18:36:50 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-06 18:36:52 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:36:52 - INFO - TX: [String] 220123 | HEX: 32 32 30 31 32 33
+2026-08-06 18:36:52 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-06 18:36:54 - INFO - Disconnected.
+2026-08-06 18:37:12 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 18:37:12 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 18:37:12 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 18:37:12 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 18:37:12 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 18:37:15 - INFO - Connected to COM12 at 115200 baud.
+2026-08-06 18:37:16 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:37:16 - INFO - TX: [String] 220123 | HEX: 32 32 30 31 32 33
+2026-08-06 18:37:16 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-06 18:37:27 - INFO - RX: [String] 1
+2026-08-06 18:37:27 - INFO - RX: [String] 1
+2026-08-06 18:37:27 - INFO - RX: [String] 2
+2026-08-06 18:37:27 - INFO - RX: [String] 2
+2026-08-06 18:37:40 - INFO - RX: [String] 1
+2026-08-06 18:37:40 - INFO - RX: [String] 2
+2026-08-06 18:37:40 - INFO - RX: [String] 1
+2026-08-06 18:37:41 - INFO - RX: [String] 2
+2026-08-06 18:37:41 - INFO - RX: [String] 1
+2026-08-06 18:37:41 - INFO - RX: [String] 2
+2026-08-06 18:37:41 - INFO - RX: [String] 1
+2026-08-06 18:37:41 - INFO - RX: [String] 2
+2026-08-06 18:37:41 - INFO - RX: [String] 1
+2026-08-06 18:37:42 - INFO - RX: [String] 2
+2026-08-06 18:37:42 - INFO - RX: [String] 1
+2026-08-06 18:37:42 - INFO - RX: [String] 1
+2026-08-06 18:37:42 - INFO - RX: [String] 2
+2026-08-06 18:37:43 - INFO - RX: [String] 3123
+2026-08-06 18:37:43 - INFO - RX: [String] 1231
+2026-08-06 18:37:45 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-06 18:37:45 - INFO - TX: [Hex] 22 01 23
+2026-08-06 18:37:45 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-06 18:37:47 - INFO - RX: [String] 1
+2026-08-06 18:37:47 - INFO - RX: [String] 2
+2026-08-06 18:37:47 - INFO - RX: [String] 1
+2026-08-06 18:37:47 - INFO - RX: [String] 2
+2026-08-06 18:37:47 - INFO - RX: [String] 1
+2026-08-06 18:37:47 - INFO - RX: [String] 2
+2026-08-06 18:37:48 - INFO - RX: [String] 1
+2026-08-06 18:37:48 - INFO - RX: [String] 2
+2026-08-06 18:37:48 - INFO - RX: [String] 54
+2026-08-06 18:37:49 - INFO - RX: [String] 4
+2026-08-06 18:37:49 - INFO - RX: [String] 2
+2026-08-06 18:37:49 - INFO - RX: [String] 5
+2026-08-06 18:37:49 - INFO - RX: [String] 245
+2026-08-06 18:37:50 - INFO - RX: [String] 4
+2026-08-06 18:37:51 - INFO - RX: [String] 4
+2026-08-06 18:37:51 - INFO - RX: [String] 5
+2026-08-06 18:37:51 - INFO - RX: [String] 5
+2026-08-06 18:37:53 - INFO - RX: [String] 245
+2026-08-06 18:37:54 - INFO - RX: [String] 12
+2026-08-06 18:37:54 - INFO - RX: [String] 3
+2026-08-06 18:37:55 - INFO - RX: [String] 123
+2026-08-06 18:37:56 - INFO - RX: [String] 123
+2026-08-06 18:37:57 - INFO - RX: [String] 45654
+2026-08-06 18:37:57 - INFO - RX: [String] 6546
+2026-08-06 18:37:58 - INFO - RX: [String] 645
+2026-08-06 18:37:59 - INFO - RX: [String] 645654645654654
+2026-08-06 18:38:00 - INFO - RX: [String] 4654654645
+2026-08-06 18:42:56 - INFO - Request Seed callback is reserved for implementation.
+2026-08-06 18:51:12 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-06 18:51:12 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-06 18:51:12 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-06 18:51:12 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-06 18:51:12 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-06 18:51:15 - INFO - Connected to COM12 at 115200 baud.
+2026-08-06 18:51:49 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-06 18:51:49 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-06 18:51:49 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-06 18:54:33 - INFO - Disconnected.
+2026-08-14 11:42:25 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-14 11:42:25 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-14 11:42:25 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-14 11:42:25 - INFO - Available COM ports: COM10, COM11, COM12, COM6, COM7, COM8, COM9
+2026-08-14 11:42:25 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-14 14:35:16 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-14 14:35:16 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-14 14:35:16 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-14 14:35:16 - INFO - Available COM ports: COM10, COM11, COM12, COM6, COM7, COM8, COM9
+2026-08-14 14:35:16 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-17 13:50:47 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-17 13:50:47 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-17 13:50:47 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-17 13:50:48 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-17 13:50:48 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-17 13:50:55 - INFO - Connected to COM3 at 115200 baud.
+2026-08-17 13:50:59 - INFO - TX: [String] 123123 | HEX: 31 32 33 31 32 33 0D 0A
+2026-08-17 13:51:01 - INFO - Disconnected.
+2026-08-17 14:26:58 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-17 14:26:58 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-17 14:26:58 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-17 14:26:58 - INFO - Available COM ports: COM10, COM11, COM12, COM6, COM7, COM8, COM9
+2026-08-17 14:26:58 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-17 14:27:11 - INFO - Connected to COM6 at 115200 baud.
+2026-08-17 14:27:15 - INFO - Disconnected.
+2026-08-17 14:27:23 - ERROR - Connection failed: Could not open COM7: could not open port 'COM7': OSError(22, 'The semaphore timeout period has expired.', None, 121)
+2026-08-17 14:27:28 - ERROR - Connection failed: Could not open COM7: could not open port 'COM7': OSError(22, 'The semaphore timeout period has expired.', None, 121)
+2026-08-17 15:35:31 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-17 15:35:31 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-17 15:35:31 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-17 15:35:32 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-17 15:35:32 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-17 15:35:37 - ERROR - Connection failed: Could not open COM3: could not open port 'COM3': PermissionError(13, 'Access is denied.', None, 5)
+2026-08-17 15:36:41 - INFO - Connected to COM3 at 115200 baud.
+2026-08-17 15:36:46 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:36:46 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:36:46 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:37:08 - INFO - TX: [String] 2701 | HEX: 32 37 30 31 0D 0A
+2026-08-17 15:38:23 - ERROR - Serial read failed: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
+2026-08-17 15:39:18 - INFO - Connected to COM3 at 115200 baud.
+2026-08-17 15:39:20 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:39:20 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:39:20 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:39:35 - INFO - TX: [String] 2701 | HEX: 32 37 30 31 0D 0A
+2026-08-17 15:40:34 - INFO - RX: [String] IG OFF 
+2026-08-17 15:40:34 - INFO - RX: [String] -> IG ON 
+2026-08-17 15:40:40 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:40:40 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:40:40 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:43:12 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:43:12 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:43:12 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:44:36 - INFO - RX: [String] IG OFF 
+2026-08-17 15:44:37 - INFO - RX: [String] -> IG ON 
+2026-08-17 15:44:40 - INFO - Disconnected.
+2026-08-17 15:44:40 - INFO - Connected to COM3 at 115200 baud.
+2026-08-17 15:44:44 - INFO - RX: [String] IG OFF 
+2026-08-17 15:44:44 - INFO - RX: [String] -> IG ON 
+2026-08-17 15:44:46 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:44:46 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:44:46 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:45:01 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:45:01 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:45:01 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:45:03 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:45:03 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:45:03 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:45:03 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:45:03 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:45:03 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:46:24 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:46:24 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:46:24 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:46:29 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:46:29 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:46:29 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:46:35 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:46:35 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:46:35 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:46:37 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:46:37 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:46:37 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:47:28 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:47:28 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:47:28 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:48:32 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:48:32 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:48:32 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:49:53 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:49:53 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:49:53 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:54:24 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:54:24 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:54:24 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:55:41 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:55:41 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:55:41 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:58:16 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:58:16 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:58:16 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 15:59:11 - INFO - RX: [String] IG OFF 
+2026-08-17 15:59:11 - INFO - RX: [String] -> IG ON 
+2026-08-17 15:59:13 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 15:59:13 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 15:59:13 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 16:00:34 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 16:00:34 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 16:00:34 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 16:02:06 - INFO - RX: [String] IG OFF 
+2026-08-17 16:02:06 - INFO - RX: [String] -> IG ON 
+2026-08-17 16:02:08 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 16:02:08 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 16:02:08 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 16:04:02 - INFO - RX: [String] IG OFF 
+2026-08-17 16:04:02 - INFO - RX: [String] -> IG ON 
+2026-08-17 16:04:04 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 16:04:04 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 16:04:04 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 16:07:21 - INFO - RX: [String] IG OFF 
+2026-08-17 16:07:21 - INFO - RX: [String] -> IG ON 
+2026-08-17 16:07:24 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 16:07:24 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 16:07:24 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 16:07:28 - INFO - RX: [String]  
+2026-08-17 16:07:28 - INFO - RX: [String] 6504 7E0: 04 32 37 30 31 00 00 00 
+2026-08-17 16:07:28 - INFO - RX: [String] 6509 7E8: 03 7F 32 11 00 00 00 00 
+2026-08-17 16:08:35 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-17 16:08:35 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-17 16:08:35 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-17 16:08:36 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-17 16:08:36 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-17 16:08:42 - INFO - Connected to COM3 at 115200 baud.
+2026-08-17 16:08:46 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 16:08:46 - INFO - TX: [Hex] 27 01
+2026-08-17 16:08:46 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 16:08:46 - INFO - RX: [String]  
+2026-08-17 16:08:46 - INFO - RX: [String] 84146 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 16:08:46 - INFO - RX: [String] 84151 7E8: 06 67 01 2D CF 46 29 00 
+2026-08-17 16:08:46 - INFO - RX: [String]  
+2026-08-17 16:08:46 - INFO - RX: [String] 84206 7E0: 10 12 67 02 E2 15 6F 56 
+2026-08-17 16:08:46 - INFO - RX: [String] 84211 7E8: 30 67 02 E2 15 6F 56 00 
+2026-08-17 16:08:46 - INFO - RX: [String] 84215 7E0: 20 EF 15 6F 56 0D 15 00 
+2026-08-17 16:08:46 - INFO - RX: [String] 84219 7E0: 21 56 5E 15 1D 56 00 00 
+2026-08-17 16:08:46 - INFO - RX: [String] 84225 7E8: 02 67 02 00 00 00 00 00 
+2026-08-17 16:09:01 - INFO - Send Key callback is reserved for implementation.
+2026-08-17 16:09:51 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 16:09:51 - INFO - TX: [Hex] 27 01
+2026-08-17 16:09:51 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 16:09:51 - INFO - RX: [String]  
+2026-08-17 16:09:51 - INFO - RX: [String] 149383 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 16:09:51 - INFO - RX: [String] 149389 7E8: 06 67 01 04 B4 78 D8 00 
+2026-08-17 16:09:51 - INFO - RX: [String]  
+2026-08-17 16:09:51 - INFO - RX: [String] 149443 7E0: 10 12 67 02 B0 2C A0 DC 
+2026-08-17 16:09:51 - INFO - RX: [String] 149448 7E8: 30 67 02 B0 2C A0 DC 00 
+2026-08-17 16:09:51 - INFO - RX: [String] 149452 7E0: 20 B4 2C F8 DC 04 2C 58 
+2026-08-17 16:09:51 - INFO - RX: [String] 149457 7E0: 21 DC 50 2C A0 DC 00 00 
+2026-08-17 16:09:51 - INFO - RX: [String] 149462 7E8: 02 67 02 00 00 00 00 00 
+2026-08-17 16:22:41 - INFO - TX: [Hex] 2E 01 23 FF FF
+2026-08-17 16:22:41 - INFO - RX: [String]  
+2026-08-17 16:22:41 - INFO - RX: [String] 922383 7E0: 05 2E 01 23 FF FF 00 00 
+2026-08-17 16:22:41 - INFO - RX: [String] 922389 7E8: 03 7F 2E 13 00 00 00 00 
+2026-08-17 16:28:05 - INFO - TX: [Hex] 2E 01 23 F0 01
+2026-08-17 16:28:05 - INFO - RX: [String]  
+2026-08-17 16:28:05 - INFO - RX: [String] 1247897 7E0: 05 2E 01 23 F0 01 00 00 
+2026-08-17 16:28:05 - INFO - RX: [String] 1247903 7E8: 03 7F 2E 13 00 00 00 00 
+2026-08-17 16:28:08 - INFO - TX: [Hex] 2E 01 23 F0
+2026-08-17 16:28:08 - INFO - RX: [String]  
+2026-08-17 16:28:08 - INFO - RX: [String] 1251220 7E0: 04 2E 01 23 F0 00 00 00 
+2026-08-17 16:28:08 - INFO - RX: [String] 1251226 7E8: 03 7F 2E 13 00 00 00 00 
+2026-08-17 16:28:24 - INFO - TX: [Hex] 2E 01 23
+2026-08-17 16:28:24 - INFO - RX: [String]  
+2026-08-17 16:28:24 - INFO - RX: [String] 1266604 7E0: 03 2E 01 23 00 00 00 00 
+2026-08-17 16:28:24 - INFO - RX: [String] 1266610 7E8: 03 7F 2E 13 00 00 00 00 
+2026-08-17 16:28:26 - INFO - TX: [Hex] 22 01 23
+2026-08-17 16:28:26 - INFO - RX: [String]  
+2026-08-17 16:28:26 - INFO - RX: [String] 1269296 7E0: 03 22 01 23 00 00 00 00 
+2026-08-17 16:28:26 - INFO - RX: [String] 1269302 7E8: 07 62 01 23 00 00 07 E0 
+2026-08-17 16:28:35 - INFO - TX: [Hex] 2E 01 23 00 F0 01
+2026-08-17 16:28:35 - INFO - RX: [String]  
+2026-08-17 16:28:35 - INFO - RX: [String] 1278122 7E0: 06 2E 01 23 00 F0 01 00 
+2026-08-17 16:28:35 - INFO - RX: [String] 1278128 7E8: 03 7F 2E 13 00 00 00 00 
+2026-08-17 16:28:41 - INFO - TX: [Hex] 2E 01 23 00 00 F0 01
+2026-08-17 16:28:41 - INFO - RX: [String]  
+2026-08-17 16:28:41 - INFO - RX: [String] 1284346 7E0: 07 2E 01 23 00 00 F0 01 
+2026-08-17 16:28:41 - INFO - RX: [String] 1284352 7E8: 03 7F 2E 33 00 00 00 00 
+2026-08-17 16:28:46 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 16:28:46 - INFO - TX: [Hex] 27 01
+2026-08-17 16:28:46 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 16:28:46 - INFO - RX: [String]  
+2026-08-17 16:28:46 - INFO - RX: [String] 1289100 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 16:28:46 - INFO - RX: [String] 1289106 7E8: 06 67 01 68 A7 FF 3F 00 
+2026-08-17 16:28:46 - INFO - RX: [String]  
+2026-08-17 16:28:46 - INFO - RX: [String] 1289160 7E0: 10 12 67 02 CF A6 C0 A7 
+2026-08-17 16:28:46 - INFO - RX: [String] 1289166 7E8: 30 67 02 CF A6 C0 A7 00 
+2026-08-17 16:28:46 - INFO - RX: [String] 1289169 7E0: 20 EF A6 FF A7 20 A6 3F 
+2026-08-17 16:28:46 - INFO - RX: [String] 1289174 7E0: 21 A7 C1 A6 C0 A7 00 00 
+2026-08-17 16:28:46 - INFO - RX: [String] 1289180 7E8: 02 67 02 00 00 00 00 00 
+2026-08-17 16:28:54 - INFO - TX: [Hex] 2E 01 23 00 F0 00
+2026-08-17 16:28:54 - INFO - RX: [String]  
+2026-08-17 16:28:54 - INFO - RX: [String] 1296993 7E0: 06 2E 01 23 00 F0 00 00 
+2026-08-17 16:28:54 - INFO - RX: [String] 1296999 7E8: 03 7F 2E 13 00 00 00 00 
+2026-08-17 16:28:59 - INFO - TX: [Hex] 2E 01 23 00 00 F0 00
+2026-08-17 16:28:59 - INFO - RX: [String]  
+2026-08-17 16:28:59 - INFO - RX: [String] 1302152 7E0: 07 2E 01 23 00 00 F0 00 
+2026-08-17 16:28:59 - INFO - RX: [String] 1302158 7E8: 03 7F 2E 33 00 00 00 00 
+2026-08-17 16:33:59 - INFO - RX: [String] IG OFF 
+2026-08-17 16:33:59 - INFO - RX: [String] -> IG ON 
+2026-08-17 16:34:04 - INFO - TX: [Hex] 27 01
+2026-08-17 16:34:04 - INFO - RX: [String]  
+2026-08-17 16:34:04 - INFO - RX: [String] 1608585 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 16:34:04 - INFO - RX: [String] 1608591 7E8: 06 67 01 2B F1 FC D9 00 
+2026-08-17 16:34:04 - INFO - RX: [String]  
+2026-08-17 16:34:04 - INFO - RX: [String] 1608645 7E0: 10 12 67 02 DA ED 25 04 
+2026-08-17 16:34:04 - INFO - RX: [String] 1608651 7E8: 30 67 02 DA ED 25 04 00 
+2026-08-17 16:34:04 - INFO - RX: [String] 1608654 7E0: 20 FB ED FD 04 21 ED D8 
+2026-08-17 16:34:04 - INFO - RX: [String] 1608659 7E0: 21 04 3A ED 23 04 00 00 
+2026-08-17 16:34:04 - INFO - RX: [String] 1608665 7E8: 02 67 02 00 00 00 00 00 
+2026-08-17 16:34:12 - INFO - TX: [Hex] 27 01
+2026-08-17 16:34:12 - INFO - RX: [String]  
+2026-08-17 16:34:12 - INFO - RX: [String] 4300 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 16:34:12 - INFO - RX: [String] 4305 7E8: 06 67 01 2D CF 46 29 00 
+2026-08-17 16:34:12 - INFO - RX: [String]  
+2026-08-17 16:34:12 - INFO - RX: [String] 4360 7E0: 10 12 67 02 E2 15 6F 56 
+2026-08-17 16:34:12 - INFO - RX: [String] 4365 7E8: 30 67 02 E2 15 6F 56 00 
+2026-08-17 16:34:12 - INFO - RX: [String] 4369 7E0: 20 EF 15 6F 56 0D 15 00 
+2026-08-17 16:34:12 - INFO - RX: [String] 4373 7E0: 21 56 5E 15 1D 56 00 00 
+2026-08-17 16:34:12 - INFO - RX: [String] 4378 7E8: 02 67 02 00 00 00 00 00 
+2026-08-17 16:34:58 - INFO - TX: [Hex] 67 02 E2 15 6F 56
+2026-08-17 16:34:58 - INFO - RX: [String]  
+2026-08-17 16:34:58 - INFO - RX: [String] 50667 7E0: 06 67 02 E2 15 6F 56 00 
+2026-08-17 16:34:58 - INFO - RX: [String] 50672 7E8: 03 7F 67 11 00 00 00 00 
+2026-08-17 16:35:06 - INFO - TX: [Hex] 27 01
+2026-08-17 16:35:06 - INFO - RX: [String]  
+2026-08-17 16:35:06 - INFO - RX: [String] 58578 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 16:35:06 - INFO - RX: [String] 58583 7E8: 06 67 01 04 B4 78 D8 00 
+2026-08-17 16:35:06 - INFO - RX: [String]  
+2026-08-17 16:35:06 - INFO - RX: [String] 58638 7E0: 10 12 67 02 B0 2C A0 DC 
+2026-08-17 16:35:06 - INFO - RX: [String] 58643 7E8: 30 67 02 B0 2C A0 DC 00 
+2026-08-17 16:35:06 - INFO - RX: [String] 58647 7E0: 20 B4 2C F8 DC 04 2C 58 
+2026-08-17 16:35:06 - INFO - RX: [String] 58651 7E0: 21 DC 50 2C A0 DC 00 00 
+2026-08-17 16:35:06 - INFO - RX: [String] 58657 7E8: 02 67 02 00 00 00 00 00 
+2026-08-17 16:35:17 - INFO - TX: [Hex] 27 02 E2 15 6F 56
+2026-08-17 16:35:17 - INFO - RX: [String]  
+2026-08-17 16:35:17 - INFO - RX: [String] 69320 7E0: 06 27 02 E2 15 6F 56 00 
+2026-08-17 16:35:17 - INFO - RX: [String] 69325 7E8: 03 7F 27 13 00 00 00 00 
+2026-08-17 16:37:50 - INFO - TX: [Hex] 27 01
+2026-08-17 16:37:50 - INFO - RX: [String]  
+2026-08-17 16:37:50 - INFO - RX: [String] 6868 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 16:37:50 - INFO - RX: [String] 6873 7E8: 06 67 01 2D CF 46 29 00 
+2026-08-17 16:44:11 - INFO - RX: [String]  
+2026-08-17 16:44:11 - INFO - RX: [String] 6928 7E0: 10 12 67 02 E2 15 6F 56 
+2026-08-17 16:44:11 - INFO - RX: [String] 6933 7E8: 30 67 02 E2 15 6F 56 00 
+2026-08-17 16:44:11 - INFO - RX: [String] 6937 7E0: 20 EF 15 6F 56 0D 15 00 
+2026-08-17 16:44:11 - INFO - RX: [String] 6941 7E0: 21 56 5E 15 1D 56 00 00 
+2026-08-17 16:44:11 - INFO - RX: [String] 6946 7E8: 02 67 02 00 00 00 00 00 
+2026-08-17 16:50:01 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 16:50:01 - INFO - TX: [Hex] 27 01
+2026-08-17 16:50:01 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 16:50:01 - INFO - RX: [String]  
+2026-08-17 16:50:01 - INFO - RX: [String] 4384 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 16:50:01 - INFO - RX: [String] 4389 7E8: 06 67 01 2D CF 46 29 00 
+2026-08-17 16:50:01 - INFO - RX: [String]  
+2026-08-17 16:50:01 - INFO - RX: [String] 4444 7E0: 10 12 67 02 E2 15 6F 56 
+2026-08-17 16:50:01 - INFO - RX: [String] 4449 7E8: 30 67 02 E2 15 6F 56 00 
+2026-08-17 16:50:01 - INFO - RX: [String] 4453 7E0: 20 EF 15 6F 56 0D 15 00 
+2026-08-17 16:50:01 - INFO - RX: [String] 4457 7E0: 21 56 5E 15 1D 56 00 00 
+2026-08-17 16:50:01 - INFO - RX: [String] 4462 7E8: 02 67 02 00 00 00 00 00 
+2026-08-17 16:50:05 - INFO - RX: [String] IG OFF 
+2026-08-17 16:50:05 - INFO - RX: [String] -> IG ON 
+2026-08-17 16:50:07 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 16:50:07 - INFO - TX: [Hex] 27 01
+2026-08-17 16:50:07 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 16:50:07 - INFO - RX: [String]  
+2026-08-17 16:50:07 - INFO - RX: [String] 10313 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 16:50:07 - INFO - RX: [String] 10318 7E8: 06 67 01 04 B4 78 D8 00 
+2026-08-17 16:50:07 - INFO - RX: [String]  
+2026-08-17 16:50:07 - INFO - RX: [String] 10373 7E0: 10 12 67 02 B0 2C A0 DC 
+2026-08-17 16:50:07 - INFO - RX: [String] 10378 7E8: 30 67 02 B0 2C A0 DC 00 
+2026-08-17 16:50:07 - INFO - RX: [String] 10382 7E0: 20 B4 2C F8 DC 04 2C 58 
+2026-08-17 16:50:07 - INFO - RX: [String] 10386 7E0: 21 DC 50 2C A0 DC 00 00 
+2026-08-17 16:50:07 - INFO - RX: [String] 10392 7E8: 02 67 02 00 00 00 00 00 
+2026-08-17 16:51:11 - INFO - Disconnected.
+2026-08-17 18:54:43 - INFO - Connected to COM3 at 115200 baud.
+2026-08-17 18:54:45 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 18:54:45 - INFO - TX: [Hex] 27 01
+2026-08-17 18:54:45 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 18:54:45 - INFO - RX: [String]  
+2026-08-17 18:54:45 - INFO - RX: [String] 275098 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 18:54:53 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 18:54:53 - INFO - TX: [Hex] 27 01
+2026-08-17 18:54:53 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 18:54:53 - INFO - RX: [String]  
+2026-08-17 18:54:53 - INFO - RX: [String] 283671 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 18:55:04 - INFO - TX: [Hex] 27 01
+2026-08-17 18:55:04 - INFO - RX: [String]  
+2026-08-17 18:55:04 - INFO - RX: [String] 294811 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 18:55:09 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-17 18:55:09 - INFO - TX: [Hex] 22 01 23
+2026-08-17 18:55:09 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-17 18:55:09 - INFO - RX: [String]  
+2026-08-17 18:55:09 - INFO - RX: [String] 299868 7E0: 03 22 01 23 00 00 00 00 
+2026-08-17 18:55:12 - INFO - Disconnected.
+2026-08-17 18:55:15 - INFO - Connected to COM3 at 115200 baud.
+2026-08-17 18:55:19 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 18:55:19 - INFO - TX: [Hex] 27 01
+2026-08-17 18:55:19 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 18:55:19 - INFO - RX: [String]  
+2026-08-17 18:55:19 - INFO - RX: [String] 2222 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 18:55:19 - INFO - RX: [String] 2227 7E8: 06 67 01 2D CF 46 29 00 
+2026-08-17 18:55:19 - INFO - RX: [String]  
+2026-08-17 18:55:19 - INFO - RX: [String] 2282 7E0: 10 12 27 02 E2 15 6F 56 
+2026-08-17 18:55:19 - INFO - RX: [String] 2287 7E8: 30 01 00 00 00 00 00 00 
+2026-08-17 18:55:19 - INFO - RX: [String] 2291 7E0: 21 EF 15 6F 56 0D 15 00 
+2026-08-17 18:55:20 - INFO - RX: [String] 2296 7E8: 30 01 00 00 00 00 00 00 
+2026-08-17 18:55:20 - INFO - RX: [String] 2299 7E0: 22 56 5E 15 1D 56 00 00 
+2026-08-17 18:55:20 - INFO - RX: [String] 2305 7E8: 02 67 02 00 00 00 00 00 
+2026-08-17 18:55:24 - INFO - Send Key callback is reserved for implementation.
+2026-08-17 18:55:25 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-17 18:55:25 - INFO - TX: [Hex] 22 01 23
+2026-08-17 18:55:25 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-17 18:55:25 - INFO - RX: [String]  
+2026-08-17 18:55:25 - INFO - RX: [String] 8226 7E0: 03 22 01 23 00 00 00 00 
+2026-08-17 18:55:25 - INFO - RX: [String] 8231 7E8: 07 62 01 23 00 00 07 E0 
+2026-08-17 18:55:35 - INFO - Write DID callback is reserved for 0x0123 (value length: 8).
+2026-08-17 18:58:35 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 18:58:35 - INFO - TX: [Hex] 27 01
+2026-08-17 18:58:35 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 18:58:35 - INFO - RX: [String]  
+2026-08-17 18:58:35 - INFO - RX: [String] 198765 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 18:58:35 - INFO - RX: [String] 198771 7E8: 06 67 01 04 B4 78 D8 00 
+2026-08-17 18:58:35 - INFO - RX: [String]  
+2026-08-17 18:58:35 - INFO - RX: [String] 198825 7E0: 10 12 27 02 B0 2C A0 DC 
+2026-08-17 18:58:35 - INFO - RX: [String] 198830 7E8: 30 01 00 00 00 00 00 00 
+2026-08-17 18:58:35 - INFO - RX: [String] 198834 7E0: 21 B4 2C F8 DC 04 2C 58 
+2026-08-17 18:58:35 - INFO - RX: [String] 198840 7E8: 30 01 00 00 00 00 00 00 
+2026-08-17 18:58:35 - INFO - RX: [String] 198843 7E0: 22 DC 50 2C A0 DC 00 00 
+2026-08-17 18:58:35 - INFO - RX: [String] 198849 7E8: 02 67 02 00 00 00 00 00 
+2026-08-17 18:58:54 - INFO - Write DID callback is reserved for 0x0123 (value length: 8).
+2026-08-17 19:02:53 - INFO - Disconnected.
+2026-08-17 19:02:57 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-17 19:02:57 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-17 19:02:57 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-17 19:02:57 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-17 19:02:57 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-17 19:03:01 - INFO - Connected to COM3 at 115200 baud.
+2026-08-17 19:03:03 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 19:03:03 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-17 19:03:03 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 19:03:03 - INFO - RX: [String]  
+2026-08-17 19:03:03 - INFO - RX: [String] 467729 7E0: 04 32 37 30 31 00 00 00 
+2026-08-17 19:03:03 - INFO - RX: [String] 467734 7E8: 03 7F 32 11 00 00 00 00 
+2026-08-17 19:03:17 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 19:03:17 - INFO - TX: [Hex] 27 01
+2026-08-17 19:03:17 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 19:03:17 - INFO - RX: [String]  
+2026-08-17 19:03:17 - INFO - RX: [String] 481778 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 19:03:17 - INFO - RX: [String] 481784 7E8: 06 67 01 68 A7 FF 3F 00 
+2026-08-17 19:03:17 - INFO - RX: [String]  
+2026-08-17 19:03:17 - INFO - RX: [String] 481838 7E0: 10 12 27 02 CF A6 C0 A7 
+2026-08-17 19:03:17 - INFO - RX: [String] 481843 7E8: 30 01 00 00 00 00 00 00 
+2026-08-17 19:03:17 - INFO - RX: [String] 481847 7E0: 21 EF A6 FF A7 20 A6 3F 
+2026-08-17 19:03:17 - INFO - RX: [String] 481853 7E8: 30 01 00 00 00 00 00 00 
+2026-08-17 19:03:17 - INFO - RX: [String] 481856 7E0: 22 A7 C1 A6 C0 A7 00 00 
+2026-08-17 19:03:17 - INFO - RX: [String] 481862 7E8: 02 67 02 00 00 00 00 00 
+2026-08-17 19:03:20 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-17 19:03:20 - INFO - TX: [Hex] 22 01 23
+2026-08-17 19:03:20 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-17 19:03:20 - INFO - RX: [String]  
+2026-08-17 19:03:20 - INFO - RX: [String] 484651 7E0: 03 22 01 23 00 00 00 00 
+2026-08-17 19:03:20 - INFO - RX: [String] 484657 7E8: 07 62 01 23 00 00 07 E0 
+2026-08-17 19:03:30 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 19:03:30 - INFO - TX: [Hex] 27 01
+2026-08-17 19:03:30 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 19:03:30 - INFO - RX: [String]  
+2026-08-17 19:03:30 - INFO - RX: [String] 494679 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 19:03:30 - INFO - RX: [String] 494684 7E8: 06 67 01 2B F1 FC D9 00 
+2026-08-17 19:03:30 - INFO - RX: [String]  
+2026-08-17 19:03:30 - INFO - RX: [String] 494739 7E0: 10 12 27 02 DA ED 25 04 
+2026-08-17 19:03:30 - INFO - RX: [String] 494744 7E8: 30 01 00 00 00 00 00 00 
+2026-08-17 19:03:30 - INFO - RX: [String] 494748 7E0: 21 FB ED FD 04 21 ED D8 
+2026-08-17 19:03:30 - INFO - RX: [String] 494754 7E8: 30 01 00 00 00 00 00 00 
+2026-08-17 19:03:30 - INFO - RX: [String] 494757 7E0: 22 04 3A ED 23 04 00 00 
+2026-08-17 19:03:30 - INFO - RX: [String] 494763 7E8: 02 67 02 00 00 00 00 00 
+2026-08-17 19:03:31 - INFO - Write DID callback is reserved for 0x0123 (value length: 8).
+2026-08-17 19:04:14 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-17 19:04:14 - INFO - TX: [Hex] 22 01 23
+2026-08-17 19:04:14 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-17 19:04:14 - INFO - RX: [String]  
+2026-08-17 19:04:14 - INFO - RX: [String] 538743 7E0: 03 22 01 23 00 00 00 00 
+2026-08-17 19:04:14 - INFO - RX: [String] 538749 7E8: 07 62 01 23 00 00 07 E0 
+2026-08-17 19:13:28 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 19:13:28 - INFO - TX: [Hex] 27 01
+2026-08-17 19:13:28 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 19:13:28 - INFO - RX: [String]  
+2026-08-17 19:13:28 - INFO - RX: [String] 1095048 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 19:13:28 - INFO - RX: [String] 1095054 7E8: 06 67 01 7A 96 09 2C 00 
+2026-08-17 19:13:28 - INFO - RX: [String]  
+2026-08-17 19:13:28 - INFO - RX: [String] 1095108 7E0: 10 12 27 02 EC 9F 25 A6 
+2026-08-17 19:13:28 - INFO - RX: [String] 1095113 7E8: 30 01 00 00 00 00 00 00 
+2026-08-17 19:13:28 - INFO - RX: [String] 1095117 7E0: 21 FE 9F 2D A6 12 9F 08 
+2026-08-17 19:13:28 - INFO - RX: [String] 1095123 7E8: 30 01 00 00 00 00 00 00 
+2026-08-17 19:13:28 - INFO - RX: [String] 1095127 7E0: 22 A6 E4 9F DD A6 00 00 
+2026-08-17 19:13:28 - INFO - RX: [String] 1095132 7E8: 02 67 02 00 00 00 00 00 
+2026-08-17 19:13:35 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-17 19:13:35 - INFO - TX: [Hex] 27 01
+2026-08-17 19:13:35 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-17 19:13:35 - INFO - RX: [String]  
+2026-08-17 19:13:35 - INFO - RX: [String] 1101933 7E0: 02 27 01 00 00 00 00 00 
+2026-08-17 19:13:35 - INFO - RX: [String] 1101939 7E8: 06 67 01 A5 57 74 64 00 
+2026-08-17 19:13:35 - INFO - RX: [String]  
+2026-08-17 19:13:35 - INFO - RX: [String] 1101993 7E0: 10 12 27 02 F2 CB 10 09 
+2026-08-17 19:13:35 - INFO - RX: [String] 1101998 7E8: 30 01 00 00 00 00 00 00 
+2026-08-17 19:13:35 - INFO - RX: [String] 1102002 7E0: 21 F7 CB 74 09 05 CB 64 
+2026-08-17 19:13:35 - INFO - RX: [String] 1102008 7E8: 30 01 00 00 00 00 00 00 
+2026-08-17 19:13:35 - INFO - RX: [String] 1102012 7E0: 22 09 4E CB 10 09 00 00 
+2026-08-17 19:13:35 - INFO - RX: [String] 1102017 7E8: 02 67 02 00 00 00 00 00 
+2026-08-17 19:13:38 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-17 19:13:38 - INFO - TX: [Hex] 22 01 23
+2026-08-17 19:13:38 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-17 19:13:38 - INFO - RX: [String]  
+2026-08-17 19:13:38 - INFO - RX: [String] 1105344 7E0: 03 22 01 23 00 00 00 00 
+2026-08-17 19:13:38 - INFO - RX: [String] 1105350 7E8: 07 62 01 23 00 00 07 E0 
+2026-08-17 19:14:42 - INFO - Disconnected.
+2026-08-17 19:14:54 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-17 19:14:54 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-17 19:14:54 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-17 19:14:54 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-17 19:14:54 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-17 19:14:54 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-17 19:14:58 - INFO - Connected to COM3 at 115200 baud.
+2026-08-17 19:15:05 - INFO - Failed to convert value to hex: 1223
+2026-08-17 19:15:11 - INFO - Failed to convert value to hex: 0x1223
+2026-08-17 19:15:52 - INFO - Failed to convert value to hex: 0x1223
+2026-08-17 19:17:48 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-17 19:17:48 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-17 19:17:48 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-17 19:17:48 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-17 19:17:48 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-17 19:17:48 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-17 19:17:51 - INFO - Connected to COM3 at 115200 baud.
+2026-08-17 19:18:06 - INFO - Failed to convert value to hex: 1122
+2026-08-17 19:18:11 - INFO - Failed to convert value to hex: 1122
+2026-08-17 19:19:34 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-17 19:19:34 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-17 19:19:34 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-17 19:19:34 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-17 19:19:34 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-17 19:19:34 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-17 19:19:39 - INFO - Connected to COM3 at 115200 baud.
+2026-08-17 19:20:20 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-17 19:20:20 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-17 19:20:20 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-17 19:20:20 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-17 19:20:20 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-17 19:20:20 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-17 19:20:24 - INFO - Connected to COM3 at 115200 baud.
+2026-08-17 19:20:34 - INFO - Failed to convert value to hex: 1111
+2026-08-17 19:21:04 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-17 19:21:04 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-17 19:21:04 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-17 19:21:04 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-17 19:21:04 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-17 19:21:04 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-17 19:21:07 - INFO - Connected to COM3 at 115200 baud.
+2026-08-17 19:21:14 - INFO - Failed to convert value to hex: 1111
+2026-08-17 19:21:46 - INFO - Failed to convert value to hex: 1111
+2026-08-17 19:23:55 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-17 19:23:55 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-17 19:23:55 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-17 19:23:55 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-17 19:23:55 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-17 19:23:55 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-17 19:23:58 - INFO - Connected to COM3 at 115200 baud.
+2026-08-17 19:24:37 - INFO - Disconnected.
+2026-08-17 19:25:14 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-17 19:25:14 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-17 19:25:14 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-17 19:25:14 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-17 19:25:14 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-17 19:25:14 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-17 19:25:17 - INFO - Connected to COM3 at 115200 baud.
+2026-08-17 19:25:23 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-17 19:25:28 - ERROR - Write DID failed: DID must contain exactly 2 byte(s); received 1.
+2026-08-17 19:25:41 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-17 19:25:41 - ERROR - Write DID failed: DID must contain exactly 2 byte(s); received 1.
+2026-08-17 19:25:48 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-17 19:25:48 - ERROR - Write DID failed: DID must contain complete hexadecimal bytes.
+2026-08-17 19:25:53 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-17 19:25:53 - ERROR - Write DID failed: DID must contain complete hexadecimal bytes.
+2026-08-17 19:25:55 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-17 19:25:55 - ERROR - Write DID failed: DID must contain complete hexadecimal bytes.
+2026-08-17 19:25:57 - INFO - Disconnected.
+2026-08-18 10:01:00 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 10:01:00 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 10:01:00 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 10:01:00 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 10:01:01 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 10:01:01 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 10:01:14 - INFO - Connected to COM3 at 115200 baud.
+2026-08-18 10:01:26 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 10:01:26 - INFO - TX: [String] 2701 | HEX: 32 37 30 31
+2026-08-18 10:01:26 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 10:01:26 - INFO - RX: [String]  
+2026-08-18 10:01:26 - INFO - RX: [String] 33879 7E0: 03 32 30 31 00 00 00 00 
+2026-08-18 10:01:26 - INFO - RX: [String] 33884 7E8: 03 7F 32 11 00 00 00 00 
+2026-08-18 10:01:32 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 10:01:32 - INFO - TX: [Hex] 27 01
+2026-08-18 10:01:32 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 10:01:32 - INFO - RX: [String]  
+2026-08-18 10:01:32 - INFO - RX: [String] 40113 7E0: 01 27 00 00 00 00 00 00 
+2026-08-18 10:01:32 - INFO - RX: [String] 40118 7E8: 03 7F 27 13 00 00 00 00 
+2026-08-18 10:01:38 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 10:01:38 - INFO - TX: [Hex] 27 01
+2026-08-18 10:01:38 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 10:01:38 - INFO - RX: [String]  
+2026-08-18 10:01:38 - INFO - RX: [String] 46269 7E0: 01 27 00 00 00 00 00 00 
+2026-08-18 10:01:38 - INFO - RX: [String] 46274 7E8: 03 7F 27 13 00 00 00 00 
+2026-08-18 10:01:43 - INFO - Send Key callback is reserved for implementation.
+2026-08-18 10:01:44 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 10:01:44 - INFO - TX: [Hex] 27 01
+2026-08-18 10:01:44 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 10:01:44 - INFO - RX: [String]  
+2026-08-18 10:01:44 - INFO - RX: [String] 52299 7E0: 01 27 00 00 00 00 00 00 
+2026-08-18 10:01:44 - INFO - RX: [String] 52304 7E8: 03 7F 27 13 00 00 00 00 
+2026-08-18 10:02:10 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 10:02:10 - INFO - TX: [Hex] 27 01
+2026-08-18 10:02:10 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 10:02:10 - INFO - RX: [String]  
+2026-08-18 10:02:10 - INFO - RX: [String] 1800 7E0: 01 27 00 00 00 00 00 00 
+2026-08-18 10:02:10 - INFO - RX: [String] 1805 7E8: 03 7F 27 13 00 00 00 00 
+2026-08-18 10:04:16 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 10:04:16 - INFO - TX: [Hex] 27 01
+2026-08-18 10:04:16 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 10:04:16 - INFO - RX: [String]  
+2026-08-18 10:04:16 - INFO - RX: [String] 3356 7E0: 01 27 00 00 00 00 00 00 
+2026-08-18 10:04:16 - INFO - RX: [String] 3361 7E8: 03 7F 27 13 00 00 00 00 
+2026-08-18 10:04:20 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 10:04:20 - INFO - TX: [Hex] 22 01 23
+2026-08-18 10:04:20 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 10:04:20 - INFO - RX: [String]  
+2026-08-18 10:04:20 - INFO - RX: [String] 7508 7E0: 02 22 23 00 00 00 00 00 
+2026-08-18 10:04:20 - INFO - RX: [String] 7513 7E8: 03 7F 22 13 00 00 00 00 
+2026-08-18 10:08:04 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 10:08:04 - INFO - TX: [Hex] 27 01
+2026-08-18 10:08:04 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 10:08:04 - INFO - RX: [String]  
+2026-08-18 10:08:04 - INFO - RX: [String] 6436 7E0: 01 27 00 00 00 00 00 00 
+2026-08-18 10:08:04 - INFO - RX: [String] 6441 7E8: 03 7F 27 13 00 00 00 00 
+2026-08-18 10:08:48 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 10:08:48 - INFO - TX: [Hex] 27 01
+2026-08-18 10:08:48 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 10:10:39 - INFO - RX: [String]  
+2026-08-18 10:10:39 - INFO - RX: [String] 3711 7E0: 01 27 00 00 00 00 00 00 
+2026-08-18 10:10:39 - INFO - RX: [String] 3716 7E8: 03 7F 27 13 00 00 00 00 
+2026-08-18 10:10:58 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 10:10:58 - INFO - TX: [Hex] 27 01
+2026-08-18 10:10:58 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 10:10:58 - INFO - RX: [String]  
+2026-08-18 10:10:58 - INFO - RX: [String] 4459 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 10:10:58 - INFO - RX: [String] 4464 7E8: 06 67 01 2D CF 46 29 00 
+2026-08-18 10:10:58 - INFO - RX: [String]  
+2026-08-18 10:10:58 - INFO - RX: [String] 4519 7E0: 10 12 27 02 E2 15 6F 56 
+2026-08-18 10:10:58 - INFO - RX: [String] 4524 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:10:58 - INFO - RX: [String] 4528 7E0: 21 EF 15 6F 56 0D 15 00 
+2026-08-18 10:10:58 - INFO - RX: [String] 4533 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:10:58 - INFO - RX: [String] 4536 7E0: 22 56 5E 15 1D 56 00 00 
+2026-08-18 10:10:58 - INFO - RX: [String] 4542 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 10:11:22 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 10:11:22 - INFO - TX: [Hex] 22 01 23
+2026-08-18 10:11:22 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 10:11:22 - INFO - RX: [String]  
+2026-08-18 10:11:22 - INFO - RX: [String] 28351 7E0: 03 22 01 23 00 00 00 00 
+2026-08-18 10:11:22 - INFO - RX: [String] 28356 7E8: 07 62 01 23 00 00 07 E0 
+2026-08-18 10:11:23 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 10:11:23 - INFO - TX: [Hex] 27 01
+2026-08-18 10:11:23 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 10:11:23 - INFO - RX: [String]  
+2026-08-18 10:11:23 - INFO - RX: [String] 29491 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 10:11:23 - INFO - RX: [String] 29496 7E8: 06 67 01 04 B4 78 D8 00 
+2026-08-18 10:11:23 - INFO - RX: [String]  
+2026-08-18 10:11:23 - INFO - RX: [String] 29551 7E0: 10 12 27 02 B0 2C A0 DC 
+2026-08-18 10:11:23 - INFO - RX: [String] 29556 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:11:23 - INFO - RX: [String] 29560 7E0: 21 B4 2C F8 DC 04 2C 58 
+2026-08-18 10:11:23 - INFO - RX: [String] 29565 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:11:23 - INFO - RX: [String] 29569 7E0: 22 DC 50 2C A0 DC 00 00 
+2026-08-18 10:11:23 - INFO - RX: [String] 29575 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 10:11:25 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 10:11:25 - INFO - TX: [Hex] 22 01 23
+2026-08-18 10:11:25 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 10:11:25 - INFO - RX: [String]  
+2026-08-18 10:11:25 - INFO - RX: [String] 31214 7E0: 03 22 01 23 00 00 00 00 
+2026-08-18 10:11:25 - INFO - RX: [String] 31219 7E8: 07 62 01 23 00 00 07 E0 
+2026-08-18 10:11:25 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 10:11:25 - INFO - TX: [Hex] 22 01 23
+2026-08-18 10:11:25 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 10:11:26 - INFO - RX: [String]  
+2026-08-18 10:11:26 - INFO - RX: [String] 32048 7E0: 03 22 01 23 00 00 00 00 
+2026-08-18 10:11:26 - INFO - RX: [String] 32053 7E8: 07 62 01 23 00 00 07 E0 
+2026-08-18 10:11:26 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 10:11:26 - INFO - TX: [Hex] 22 01 23
+2026-08-18 10:11:26 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 10:11:26 - INFO - RX: [String]  
+2026-08-18 10:11:26 - INFO - RX: [String] 32542 7E0: 03 22 01 23 00 00 00 00 
+2026-08-18 10:11:26 - INFO - RX: [String] 32547 7E8: 07 62 01 23 00 00 07 E0 
+2026-08-18 10:11:26 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 10:11:26 - INFO - TX: [Hex] 22 01 23
+2026-08-18 10:11:26 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 10:11:26 - INFO - RX: [String]  
+2026-08-18 10:11:26 - INFO - RX: [String] 32737 7E0: 03 22 01 23 00 00 00 00 
+2026-08-18 10:11:26 - INFO - RX: [String] 32742 7E8: 07 62 01 23 00 00 07 E0 
+2026-08-18 10:11:27 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 10:11:27 - INFO - TX: [Hex] 27 01
+2026-08-18 10:11:27 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 10:11:27 - INFO - RX: [String]  
+2026-08-18 10:11:27 - INFO - RX: [String] 33534 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 10:11:27 - INFO - RX: [String] 33539 7E8: 06 67 01 68 A7 FF 3F 00 
+2026-08-18 10:11:27 - INFO - RX: [String]  
+2026-08-18 10:11:27 - INFO - RX: [String] 33594 7E0: 10 12 27 02 CF A6 C0 A7 
+2026-08-18 10:11:27 - INFO - RX: [String] 33599 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:11:27 - INFO - RX: [String] 33603 7E0: 21 EF A6 FF A7 20 A6 3F 
+2026-08-18 10:11:27 - INFO - RX: [String] 33608 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:11:27 - INFO - RX: [String] 33612 7E0: 22 A7 C1 A6 C0 A7 00 00 
+2026-08-18 10:11:27 - INFO - RX: [String] 33618 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 10:11:34 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:11:34 - ERROR - Write DID failed: DID must contain exactly 2 byte(s); received 3.
+2026-08-18 10:13:35 - INFO - Disconnected.
+2026-08-18 10:13:42 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 10:13:42 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 10:13:42 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 10:13:42 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 10:13:42 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 10:13:42 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 10:13:47 - INFO - Connected to COM3 at 115200 baud.
+2026-08-18 10:13:54 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:13:54 - ERROR - Write DID failed: DID must contain exactly 2 byte(s); received 3.
+2026-08-18 10:14:09 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:20:41 - ERROR - Write DID failed: DID must contain exactly 2 byte(s); received 3.
+2026-08-18 10:28:44 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 10:28:44 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 10:28:44 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 10:28:44 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 10:28:44 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 10:28:44 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 10:28:50 - INFO - Connected to COM3 at 115200 baud.
+2026-08-18 10:30:03 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 10:30:03 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 10:30:03 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 10:30:03 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 10:30:03 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 10:30:03 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 10:30:09 - INFO - Connected to COM3 at 115200 baud.
+2026-08-18 10:30:59 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 10:30:59 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 10:30:59 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 10:30:59 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 10:30:59 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 10:30:59 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 10:34:14 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 10:34:14 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 10:34:14 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 10:34:14 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 10:34:14 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 10:34:14 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 10:34:17 - INFO - Connected to COM3 at 115200 baud.
+2026-08-18 10:34:26 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 10:34:26 - ERROR - Read DID failed: DID must be bytes, an integer, or a hexadecimal string.
+2026-08-18 10:35:36 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 10:35:36 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 10:35:36 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 10:35:36 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 10:35:36 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 10:35:36 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 10:35:46 - INFO - Connected to COM3 at 115200 baud.
+2026-08-18 10:36:10 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:36:15 - ERROR - Write DID failed: DID must contain exactly 2 byte(s); received 3.
+2026-08-18 10:38:05 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 10:38:05 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 10:38:05 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 10:38:05 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 10:38:05 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 10:38:05 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 10:38:07 - INFO - Connected to COM3 at 115200 baud.
+2026-08-18 10:41:11 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 10:41:11 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 10:41:11 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 10:41:11 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 10:41:11 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 10:41:11 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 10:41:17 - INFO - Connected to COM3 at 115200 baud.
+2026-08-18 10:41:18 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 10:41:18 - INFO - TX: [String] 220123 | HEX: 32 32 30 31 32 33
+2026-08-18 10:42:00 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 10:42:00 - INFO - RX: [String]  
+2026-08-18 10:42:00 - INFO - RX: [String] 1833120 7E0: 06 32 32 30 31 32 33 00 
+2026-08-18 10:42:00 - INFO - RX: [String] 1833126 7E8: 03 7F 32 11 00 00 00 00 
+2026-08-18 10:42:07 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 10:42:07 - INFO - TX: [Hex] 22 01 23
+2026-08-18 10:42:17 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 10:42:17 - INFO - RX: [String]  
+2026-08-18 10:42:17 - INFO - RX: [String] 1881795 7E0: 03 22 01 23 00 00 00 00 
+2026-08-18 10:42:17 - INFO - RX: [String] 1881801 7E8: 07 62 01 23 00 00 07 E0 
+2026-08-18 10:42:47 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 10:42:47 - INFO - TX: [Hex] 22 01 23
+2026-08-18 10:43:57 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 10:43:57 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 10:43:57 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 10:43:57 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 10:43:58 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 10:43:58 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 10:44:04 - INFO - Connected to COM3 at 115200 baud.
+2026-08-18 10:44:11 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 10:44:11 - INFO - TX: [String] 220123 | HEX: 32 32 30 31 32 33
+2026-08-18 10:44:19 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 10:44:19 - INFO - RX: [String]  
+2026-08-18 10:44:19 - INFO - RX: [String] 2006441 7E0: 06 32 32 30 31 32 33 00 
+2026-08-18 10:44:19 - INFO - RX: [String] 2006447 7E8: 03 7F 32 11 00 00 00 00 
+2026-08-18 10:44:38 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:44:38 - ERROR - Write DID failed: Data must contain complete hexadecimal bytes.
+2026-08-18 10:46:02 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:46:02 - ERROR - Write DID failed: Data must contain complete hexadecimal bytes.
+2026-08-18 10:46:05 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:46:05 - ERROR - Write DID failed: Data must contain complete hexadecimal bytes.
+2026-08-18 10:46:09 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:46:09 - ERROR - Write DID failed: Data must contain complete hexadecimal bytes.
+2026-08-18 10:47:18 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:47:57 - ERROR - Write DID failed: Data must contain complete hexadecimal bytes.
+2026-08-18 10:49:41 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:51:13 - ERROR - Write DID failed: Data must contain complete hexadecimal bytes.
+2026-08-18 10:51:15 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:51:26 - ERROR - Write DID failed: Data must contain complete hexadecimal bytes.
+2026-08-18 10:51:36 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:52:18 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 10:52:18 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 10:52:18 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 10:52:18 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 10:52:18 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 10:52:18 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 10:52:21 - INFO - Connected to COM3 at 115200 baud.
+2026-08-18 10:52:27 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:52:57 - INFO - TX: [String] 2E012311223355 | HEX: 32 45 30 31 32 33 31 31 32 32 33 33 35 35
+2026-08-18 10:52:57 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=11223355
+2026-08-18 10:52:57 - INFO - Write DID for 0x0123 (value length: 8).
+2026-08-18 10:52:58 - INFO - RX: [String]  
+2026-08-18 10:52:58 - INFO - RX: [String] 2535836 7E0: 10 0E 32 45 30 31 32 33 
+2026-08-18 10:52:58 - INFO - RX: [String] 2535841 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:52:58 - INFO - RX: [String] 2535845 7E0: 21 31 31 32 32 33 33 35 
+2026-08-18 10:52:58 - INFO - RX: [String] 2535851 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:52:58 - INFO - RX: [String] 2535855 7E0: 22 35 00 00 00 00 00 00 
+2026-08-18 10:52:58 - INFO - RX: [String] 2535860 7E8: 03 7F 32 11 00 00 00 00 
+2026-08-18 10:53:12 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:53:15 - INFO - TX: [Hex] 2E 01 23 11 22 33 55
+2026-08-18 10:53:15 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=11223355
+2026-08-18 10:53:15 - INFO - Write DID for 0x0123 (value length: 8).
+2026-08-18 10:53:15 - INFO - RX: [String]  
+2026-08-18 10:53:15 - INFO - RX: [String] 2553582 7E0: 07 2E 01 23 11 22 33 55 
+2026-08-18 10:53:15 - INFO - RX: [String] 2553588 7E8: 03 7F 2E 33 00 00 00 00 
+2026-08-18 10:53:57 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 10:53:57 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 10:53:57 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 10:53:57 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 10:53:57 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 10:53:57 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 10:54:01 - INFO - Connected to COM3 at 115200 baud.
+2026-08-18 10:54:05 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 10:54:05 - INFO - TX: [Hex] 27 01
+2026-08-18 10:54:05 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 10:54:05 - INFO - RX: [String]  
+2026-08-18 10:54:05 - INFO - RX: [String] 2603344 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 10:54:05 - INFO - RX: [String] 2603350 7E8: 06 67 01 2B F1 FC D9 00 
+2026-08-18 10:54:05 - INFO - RX: [String]  
+2026-08-18 10:54:05 - INFO - RX: [String] 2603404 7E0: 10 12 27 02 DA ED 25 04 
+2026-08-18 10:54:05 - INFO - RX: [String] 2603409 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:54:05 - INFO - RX: [String] 2603413 7E0: 21 FB ED FD 04 21 ED D8 
+2026-08-18 10:54:05 - INFO - RX: [String] 2603419 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:54:05 - INFO - RX: [String] 2603423 7E0: 22 04 3A ED 23 04 00 00 
+2026-08-18 10:54:05 - INFO - RX: [String] 2603428 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 10:54:11 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:54:11 - ERROR - Write DID failed: Data must contain exactly 4 byte(s); received 2.
+2026-08-18 10:54:17 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 10:54:17 - INFO - TX: [Hex] 27 01
+2026-08-18 10:54:17 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 10:54:17 - INFO - RX: [String]  
+2026-08-18 10:54:17 - INFO - RX: [String] 2616046 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 10:54:17 - INFO - RX: [String] 2616052 7E8: 06 67 01 7A 96 09 2C 00 
+2026-08-18 10:54:17 - INFO - RX: [String]  
+2026-08-18 10:54:17 - INFO - RX: [String] 2616106 7E0: 10 12 27 02 EC 9F 25 A6 
+2026-08-18 10:54:17 - INFO - RX: [String] 2616111 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:54:17 - INFO - RX: [String] 2616115 7E0: 21 FE 9F 2D A6 12 9F 08 
+2026-08-18 10:54:17 - INFO - RX: [String] 2616121 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:54:17 - INFO - RX: [String] 2616125 7E0: 22 A6 E4 9F DD A6 00 00 
+2026-08-18 10:54:17 - INFO - RX: [String] 2616130 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 10:54:18 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:54:18 - ERROR - Write DID failed: Data must contain exactly 4 byte(s); received 2.
+2026-08-18 10:54:28 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 10:54:28 - INFO - TX: [Hex] 22 01 23
+2026-08-18 10:54:28 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 10:54:28 - INFO - RX: [String]  
+2026-08-18 10:54:28 - INFO - RX: [String] 2627187 7E0: 03 22 01 23 00 00 00 00 
+2026-08-18 10:54:28 - INFO - RX: [String] 2627193 7E8: 07 62 01 23 00 00 07 E0 
+2026-08-18 10:54:30 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:54:30 - ERROR - Write DID failed: Data must contain exactly 4 byte(s); received 2.
+2026-08-18 10:54:31 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:54:31 - ERROR - Write DID failed: Data must contain exactly 4 byte(s); received 2.
+2026-08-18 10:54:31 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:54:31 - ERROR - Write DID failed: Data must contain exactly 4 byte(s); received 2.
+2026-08-18 10:54:31 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:54:31 - ERROR - Write DID failed: Data must contain exactly 4 byte(s); received 2.
+2026-08-18 10:54:32 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:54:32 - ERROR - Write DID failed: Data must contain exactly 4 byte(s); received 2.
+2026-08-18 10:54:33 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 10:54:33 - INFO - TX: [Hex] 27 01
+2026-08-18 10:54:33 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 10:54:33 - INFO - RX: [String]  
+2026-08-18 10:54:33 - INFO - RX: [String] 2631475 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 10:54:33 - INFO - RX: [String] 2631481 7E8: 06 67 01 A5 57 74 64 00 
+2026-08-18 10:54:33 - INFO - RX: [String]  
+2026-08-18 10:54:33 - INFO - RX: [String] 2631535 7E0: 10 12 27 02 F2 CB 10 09 
+2026-08-18 10:54:33 - INFO - RX: [String] 2631540 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:54:33 - INFO - RX: [String] 2631544 7E0: 21 F7 CB 74 09 05 CB 64 
+2026-08-18 10:54:33 - INFO - RX: [String] 2631550 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:54:33 - INFO - RX: [String] 2631554 7E0: 22 09 4E CB 10 09 00 00 
+2026-08-18 10:54:33 - INFO - RX: [String] 2631559 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 10:54:34 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:54:34 - ERROR - Write DID failed: Data must contain exactly 4 byte(s); received 2.
+2026-08-18 10:54:34 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:54:34 - ERROR - Write DID failed: Data must contain exactly 4 byte(s); received 2.
+2026-08-18 10:54:35 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:54:35 - ERROR - Write DID failed: Data must contain exactly 4 byte(s); received 2.
+2026-08-18 10:54:35 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:54:35 - ERROR - Write DID failed: Data must contain exactly 4 byte(s); received 2.
+2026-08-18 10:54:35 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:54:35 - ERROR - Write DID failed: Data must contain exactly 4 byte(s); received 2.
+2026-08-18 10:55:39 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 10:55:39 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 10:55:39 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 10:55:39 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 10:55:39 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 10:55:39 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 10:55:44 - INFO - Connected to COM3 at 115200 baud.
+2026-08-18 10:55:45 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 10:55:45 - INFO - TX: [Hex] 27 01
+2026-08-18 10:55:45 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 10:55:45 - INFO - RX: [String]  
+2026-08-18 10:55:45 - INFO - RX: [String] 2704223 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 10:55:45 - INFO - RX: [String] 2704229 7E8: 06 67 01 C4 AF 15 28 00 
+2026-08-18 10:55:45 - INFO - RX: [String]  
+2026-08-18 10:55:45 - INFO - RX: [String] 2704283 7E0: 10 12 27 02 6B C4 3D EC 
+2026-08-18 10:55:45 - INFO - RX: [String] 2704288 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:55:45 - INFO - RX: [String] 2704292 7E0: 21 EF C4 3D EC 84 C4 00 
+2026-08-18 10:55:45 - INFO - RX: [String] 2704298 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 10:55:45 - INFO - RX: [String] 2704302 7E0: 22 EC 15 C4 ED EC 00 00 
+2026-08-18 10:55:45 - INFO - RX: [String] 2704307 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 10:55:51 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 10:55:51 - ERROR - Write DID failed: Data must contain exactly 4 byte(s); received 2.
+2026-08-18 10:55:53 - INFO - Disconnected.
+2026-08-18 11:03:47 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 11:03:47 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 11:03:47 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 11:03:47 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 11:03:47 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 11:03:47 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 11:03:51 - INFO - Connected to COM3 at 115200 baud.
+2026-08-18 11:03:57 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 11:03:57 - INFO - TX: [Hex] 2E 01 23 00 00 11 11
+2026-08-18 11:03:57 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=00001111
+2026-08-18 11:03:57 - INFO - Write DID for 0x0123 (value length: 8).
+2026-08-18 11:03:57 - INFO - RX: [String]  
+2026-08-18 11:03:57 - INFO - RX: [String] 3198556 7E0: 07 2E 01 23 00 00 11 11 
+2026-08-18 11:03:57 - INFO - RX: [String] 3198562 7E8: 03 7F 2E 33 00 00 00 00 
+2026-08-18 11:04:01 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 11:04:01 - INFO - TX: [Hex] 27 01
+2026-08-18 11:04:01 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 11:04:01 - INFO - RX: [String]  
+2026-08-18 11:04:01 - INFO - RX: [String] 3202918 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 11:04:01 - INFO - RX: [String] 3202924 7E8: 06 67 01 A4 E9 57 DB 00 
+2026-08-18 11:04:01 - INFO - RX: [String]  
+2026-08-18 11:04:01 - INFO - RX: [String] 3202978 7E0: 10 12 27 02 4D 40 8C 7F 
+2026-08-18 11:04:01 - INFO - RX: [String] 3202983 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 11:04:01 - INFO - RX: [String] 3202987 7E0: 21 ED 40 DF 7F A0 40 53 
+2026-08-18 11:04:01 - INFO - RX: [String] 3202993 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 11:04:01 - INFO - RX: [String] 3202997 7E0: 22 7F BB 40 7C 7F 00 00 
+2026-08-18 11:04:01 - INFO - RX: [String] 3203003 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 11:04:02 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 11:04:02 - INFO - TX: [Hex] 2E 01 23 00 00 11 11
+2026-08-18 11:04:02 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=00001111
+2026-08-18 11:04:02 - INFO - Write DID for 0x0123 (value length: 8).
+2026-08-18 11:04:02 - INFO - RX: [String]  
+2026-08-18 11:04:02 - INFO - RX: [String] 3203792 7E0: 07 2E 01 23 00 00 11 11 
+2026-08-18 11:04:02 - INFO - RX: [String] 3203798 7E8: 03 7F 2E 31 00 00 00 00 
+2026-08-18 11:04:10 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 11:04:10 - INFO - TX: [Hex] 27 01
+2026-08-18 11:04:10 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 11:04:10 - INFO - RX: [String]  
+2026-08-18 11:04:10 - INFO - RX: [String] 3211564 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 11:04:10 - INFO - RX: [String] 3211570 7E8: 06 67 01 5E 20 FB 38 00 
+2026-08-18 11:04:10 - INFO - RX: [String]  
+2026-08-18 11:04:10 - INFO - RX: [String] 3211624 7E0: 10 12 27 02 7E 1B C3 96 
+2026-08-18 11:04:10 - INFO - RX: [String] 3211629 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 11:04:10 - INFO - RX: [String] 3211633 7E0: 21 7E 1B FB 96 00 1B 38 
+2026-08-18 11:04:10 - INFO - RX: [String] 3211639 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 11:04:10 - INFO - RX: [String] 3211643 7E0: 22 96 3E 1B C3 96 00 00 
+2026-08-18 11:04:10 - INFO - RX: [String] 3211648 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 11:04:11 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 11:04:11 - INFO - TX: [Hex] 2E 01 23 00 00 01 11
+2026-08-18 11:04:11 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=00000111
+2026-08-18 11:04:11 - INFO - Write DID for 0x0123 (value length: 8).
+2026-08-18 11:04:11 - INFO - RX: [String]  
+2026-08-18 11:04:11 - INFO - RX: [String] 3212881 7E0: 07 2E 01 23 00 00 01 11 
+2026-08-18 11:04:11 - INFO - RX: [String] 3212887 7E8: 01 6E 00 00 00 00 00 00 
+2026-08-18 11:12:56 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 11:12:56 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 11:12:56 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 11:12:56 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 11:12:56 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 11:12:56 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 11:13:01 - INFO - Connected to COM3 at 115200 baud.
+2026-08-18 11:13:05 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 11:13:05 - INFO - TX: [Hex] 27 01
+2026-08-18 11:13:05 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 11:13:05 - INFO - RX: [String]  
+2026-08-18 11:13:05 - INFO - RX: [String] 3749609 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 11:13:12 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 11:13:12 - INFO - TX: [Hex] 27 01
+2026-08-18 11:13:12 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 11:13:12 - INFO - RX: [String]  
+2026-08-18 11:13:12 - INFO - RX: [String] 3756407 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 11:13:15 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 11:13:15 - INFO - TX: [Hex] 27 01
+2026-08-18 11:13:15 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 11:13:15 - INFO - RX: [String]  
+2026-08-18 11:13:15 - INFO - RX: [String] 1431 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 11:13:15 - INFO - RX: [String] 1436 7E8: 06 67 01 2D CF 46 29 00 
+2026-08-18 11:13:16 - INFO - RX: [String]  
+2026-08-18 11:13:16 - INFO - RX: [String] 1491 7E0: 10 12 27 02 E2 15 6F 56 
+2026-08-18 11:13:16 - INFO - RX: [String] 1496 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 11:13:16 - INFO - RX: [String] 1500 7E0: 21 EF 15 6F 56 0D 15 00 
+2026-08-18 11:13:16 - INFO - RX: [String] 1505 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 11:13:16 - INFO - RX: [String] 1508 7E0: 22 56 5E 15 1D 56 00 00 
+2026-08-18 11:13:16 - INFO - RX: [String] 1514 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 11:17:49 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 11:17:49 - INFO - TX: [Hex] 27 01
+2026-08-18 11:17:49 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 11:17:49 - INFO - RX: [String]  
+2026-08-18 11:17:49 - INFO - RX: [String] 276506 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 11:17:49 - INFO - RX: [String] 276511 7E8: 06 67 01 04 B4 78 D8 00 
+2026-08-18 11:17:49 - INFO - RX: [String]  
+2026-08-18 11:17:49 - INFO - RX: [String] 276566 7E0: 10 12 27 02 B0 2C A0 DC 
+2026-08-18 11:17:49 - INFO - RX: [String] 276571 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 11:17:49 - INFO - RX: [String] 276575 7E0: 21 B4 2C F8 DC 04 2C 58 
+2026-08-18 11:17:49 - INFO - RX: [String] 276581 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 11:17:49 - INFO - RX: [String] 276584 7E0: 22 DC 50 2C A0 DC 00 00 
+2026-08-18 11:17:49 - INFO - RX: [String] 276590 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 11:17:51 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 11:17:51 - INFO - TX: [Hex] 2E 01 23 00 00 01 11
+2026-08-18 11:17:51 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=00000111
+2026-08-18 11:17:51 - INFO - Write DID for 0x0123 (value length: 8).
+2026-08-18 11:17:51 - INFO - RX: [String]  
+2026-08-18 11:17:51 - INFO - RX: [String] 277757 7E0: 07 2E 01 23 00 00 01 11 
+2026-08-18 11:17:51 - INFO - RX: [String] 277763 7E8: 01 6E 00 00 00 00 00 00 
+2026-08-18 11:17:52 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 11:17:52 - INFO - TX: [Hex] 22 01 23
+2026-08-18 11:17:52 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 11:17:52 - INFO - RX: [String]  
+2026-08-18 11:17:52 - INFO - RX: [String] 279209 7E0: 03 22 01 23 00 00 00 00 
+2026-08-18 11:20:51 - INFO - RX: [String] IG OFF 
+2026-08-18 11:20:51 - INFO - RX: [String] -> IG ON 
+2026-08-18 11:20:53 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 11:20:53 - INFO - TX: [Hex] 22 01 23
+2026-08-18 11:20:53 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 11:20:53 - INFO - RX: [String]  
+2026-08-18 11:20:53 - INFO - RX: [String] 460738 111: 03 22 01 23 00 00 00 00 
+2026-08-18 11:20:53 - INFO - RX: [String] 460743 7E8: 07 62 01 23 00 00 01 11 
+2026-08-18 11:41:00 - ERROR - Serial read failed: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
+2026-08-18 14:44:57 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 14:44:57 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 14:44:57 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 14:44:57 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 14:44:58 - INFO - Available COM ports: COM10, COM11, COM12, COM3, COM6, COM7, COM8, COM9
+2026-08-18 14:44:58 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 14:45:01 - INFO - Connected to COM3 at 115200 baud.
+2026-08-18 14:45:02 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 14:45:02 - INFO - TX: [Hex] 27 01
+2026-08-18 14:45:02 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 14:45:02 - INFO - RX: [String]  
+2026-08-18 14:45:02 - INFO - RX: [String] 1008940 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 14:45:02 - INFO - RX: [String] 1008946 7E8: 06 67 01 2D CF 46 29 00 
+2026-08-18 14:45:02 - INFO - RX: [String]  
+2026-08-18 14:45:02 - INFO - RX: [String] 1009000 7E0: 10 12 27 02 E2 15 6F 56 
+2026-08-18 14:45:02 - INFO - RX: [String] 1009005 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 14:45:02 - INFO - RX: [String] 1009009 7E0: 21 EF 15 6F 56 0D 15 00 
+2026-08-18 14:45:02 - INFO - RX: [String] 1009015 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 14:45:02 - INFO - RX: [String] 1009019 7E0: 22 56 5E 15 1D 56 00 00 
+2026-08-18 14:45:02 - INFO - RX: [String] 1009024 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 14:45:07 - INFO - Disconnected.
+2026-08-18 15:47:54 - ERROR - Connection failed: Could not open COM3: could not open port 'COM3': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2026-08-18 15:48:07 - ERROR - Connection failed: Could not open COM3: could not open port 'COM3': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2026-08-18 15:48:14 - INFO - Connected to COM9 at 115200 baud.
+2026-08-18 15:48:16 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 15:48:17 - ERROR - Read DID failed: Could not write to the serial port: Write timeout
+2026-08-18 15:48:22 - ERROR - Connection failed: Could not open COM3: could not open port 'COM3': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+2026-08-18 15:48:32 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 15:48:32 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 15:48:32 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 15:48:32 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 15:48:32 - INFO - Available COM ports: COM10, COM11, COM12, COM5, COM6, COM7, COM8, COM9
+2026-08-18 15:48:32 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 15:48:39 - INFO - Connected to COM5 at 115200 baud.
+2026-08-18 15:48:41 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 15:48:41 - INFO - TX: [Hex] 27 01
+2026-08-18 15:48:41 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 15:48:41 - INFO - RX: [String]  
+2026-08-18 15:48:41 - INFO - RX: [String] 51082 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 15:48:41 - INFO - RX: [String] 51087 7E8: 06 67 01 2D CF 46 29 00 
+2026-08-18 15:48:41 - INFO - RX: [String]  
+2026-08-18 15:48:41 - INFO - RX: [String] 51142 7E0: 10 12 27 02 E2 15 6F 56 
+2026-08-18 15:48:41 - INFO - RX: [String] 51147 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 15:48:41 - INFO - RX: [String] 51151 7E0: 21 EF 15 6F 56 0D 15 00 
+2026-08-18 15:48:41 - INFO - RX: [String] 51156 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 15:48:41 - INFO - RX: [String] 51160 7E0: 22 56 5E 15 1D 56 00 00 
+2026-08-18 15:48:41 - INFO - RX: [String] 51165 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 15:48:43 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 15:48:43 - INFO - TX: [Hex] 22 01 23
+2026-08-18 15:48:43 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 15:48:43 - INFO - RX: [String]  
+2026-08-18 15:48:43 - INFO - RX: [String] 53386 7E0: 03 22 01 23 00 00 00 00 
+2026-08-18 15:48:43 - INFO - RX: [String] 53391 7E8: 05 62 01 23 07 E0 00 00 
+2026-08-18 16:22:09 - INFO - Disconnected.
+2026-08-18 16:25:57 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-08-18 16:25:57 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-08-18 16:25:57 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-08-18 16:25:57 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-08-18 16:25:57 - INFO - Available COM ports: COM10, COM11, COM12, COM5, COM6, COM7, COM8, COM9
+2026-08-18 16:25:57 - INFO - Ready - Python 3.12.13, pyserial 3.5
+2026-08-18 16:26:04 - INFO - Connected to COM5 at 115200 baud.
+2026-08-18 16:26:07 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:07 - INFO - TX: [Hex] 22 01 23
+2026-08-18 16:26:07 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 16:26:07 - INFO - RX: [String]  
+2026-08-18 16:26:07 - INFO - RX: [String] 17447 7E0: 03 22 01 23 00 00 00 00 
+2026-08-18 16:26:07 - INFO - RX: [String] 17452 7E8: 05 62 01 23 07 E0 00 00 
+2026-08-18 16:26:18 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:18 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:18 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:18 - INFO - RX: [String]  
+2026-08-18 16:26:18 - INFO - RX: [String] 28355 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:18 - INFO - RX: [String] 28360 7E8: 04 62 01 24 22 00 00 00 
+2026-08-18 16:26:26 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:26 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:26 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:26 - INFO - RX: [String]  
+2026-08-18 16:26:26 - INFO - RX: [String] 36418 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:26 - INFO - RX: [String] 36423 7E8: 04 62 01 24 1F 00 00 00 
+2026-08-18 16:26:27 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:27 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:27 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:27 - INFO - RX: [String]  
+2026-08-18 16:26:27 - INFO - RX: [String] 37512 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:27 - INFO - RX: [String] 37517 7E8: 04 62 01 24 1F 00 00 00 
+2026-08-18 16:26:28 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:28 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:28 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:28 - INFO - RX: [String]  
+2026-08-18 16:26:28 - INFO - RX: [String] 38300 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:28 - INFO - RX: [String] 38305 7E8: 04 62 01 24 20 00 00 00 
+2026-08-18 16:26:28 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:28 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:28 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:28 - INFO - RX: [String]  
+2026-08-18 16:26:28 - INFO - RX: [String] 39035 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:28 - INFO - RX: [String] 39040 7E8: 04 62 01 24 1F 00 00 00 
+2026-08-18 16:26:29 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:29 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:29 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:29 - INFO - RX: [String]  
+2026-08-18 16:26:29 - INFO - RX: [String] 39830 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:29 - INFO - RX: [String] 39835 7E8: 04 62 01 24 20 00 00 00 
+2026-08-18 16:26:30 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:30 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:30 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:30 - INFO - RX: [String]  
+2026-08-18 16:26:30 - INFO - RX: [String] 40409 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:30 - INFO - RX: [String] 40414 7E8: 04 62 01 24 20 00 00 00 
+2026-08-18 16:26:30 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:30 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:30 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:31 - INFO - RX: [String]  
+2026-08-18 16:26:31 - INFO - RX: [String] 41192 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:31 - INFO - RX: [String] 41197 7E8: 04 62 01 24 20 00 00 00 
+2026-08-18 16:26:31 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:31 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:31 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:31 - INFO - RX: [String]  
+2026-08-18 16:26:31 - INFO - RX: [String] 41787 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:31 - INFO - RX: [String] 41792 7E8: 04 62 01 24 20 00 00 00 
+2026-08-18 16:26:32 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:32 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:32 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:32 - INFO - RX: [String]  
+2026-08-18 16:26:32 - INFO - RX: [String] 42586 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:32 - INFO - RX: [String] 42591 7E8: 04 62 01 24 20 00 00 00 
+2026-08-18 16:26:33 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:33 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:33 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:33 - INFO - RX: [String]  
+2026-08-18 16:26:33 - INFO - RX: [String] 43347 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:33 - INFO - RX: [String] 43352 7E8: 04 62 01 24 1F 00 00 00 
+2026-08-18 16:26:34 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:34 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:34 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:34 - INFO - RX: [String]  
+2026-08-18 16:26:34 - INFO - RX: [String] 44538 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:34 - INFO - RX: [String] 44543 7E8: 04 62 01 24 20 00 00 00 
+2026-08-18 16:26:35 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:35 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:35 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:35 - INFO - RX: [String]  
+2026-08-18 16:26:35 - INFO - RX: [String] 45375 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:35 - INFO - RX: [String] 45380 7E8: 04 62 01 24 20 00 00 00 
+2026-08-18 16:26:35 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:35 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:35 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:35 - INFO - RX: [String]  
+2026-08-18 16:26:35 - INFO - RX: [String] 46021 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:35 - INFO - RX: [String] 46026 7E8: 04 62 01 24 20 00 00 00 
+2026-08-18 16:26:36 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:36 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:36 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:36 - INFO - RX: [String]  
+2026-08-18 16:26:36 - INFO - RX: [String] 46727 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:36 - INFO - RX: [String] 46732 7E8: 04 62 01 24 20 00 00 00 
+2026-08-18 16:26:37 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:37 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:37 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:37 - INFO - RX: [String]  
+2026-08-18 16:26:37 - INFO - RX: [String] 47344 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:37 - INFO - RX: [String] 47349 7E8: 04 62 01 24 20 00 00 00 
+2026-08-18 16:26:37 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:37 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:37 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:37 - INFO - RX: [String]  
+2026-08-18 16:26:37 - INFO - RX: [String] 47901 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:37 - INFO - RX: [String] 47906 7E8: 04 62 01 24 20 00 00 00 
+2026-08-18 16:26:38 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:38 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:38 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:38 - INFO - RX: [String]  
+2026-08-18 16:26:38 - INFO - RX: [String] 48512 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:38 - INFO - RX: [String] 48517 7E8: 04 62 01 24 20 00 00 00 
+2026-08-18 16:26:38 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:26:38 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:26:38 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:26:38 - INFO - RX: [String]  
+2026-08-18 16:26:38 - INFO - RX: [String] 49069 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:26:38 - INFO - RX: [String] 49074 7E8: 04 62 01 24 20 00 00 00 
+2026-08-18 16:26:50 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 16:26:50 - INFO - TX: [Hex] 27 01
+2026-08-18 16:26:50 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 16:26:50 - INFO - RX: [String]  
+2026-08-18 16:26:50 - INFO - RX: [String] 60320 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 16:26:50 - INFO - RX: [String] 60325 7E8: 06 67 01 2D CF 46 29 00 
+2026-08-18 16:26:50 - INFO - RX: [String]  
+2026-08-18 16:26:50 - INFO - RX: [String] 60380 7E0: 10 12 27 02 E2 15 6F 56 
+2026-08-18 16:26:50 - INFO - RX: [String] 60385 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 16:26:50 - INFO - RX: [String] 60389 7E0: 21 EF 15 6F 56 0D 15 00 
+2026-08-18 16:26:50 - INFO - RX: [String] 60394 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 16:26:50 - INFO - RX: [String] 60398 7E0: 22 56 5E 15 1D 56 00 00 
+2026-08-18 16:26:50 - INFO - RX: [String] 60404 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 16:26:51 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 16:26:51 - INFO - TX: [Hex] 2E 01 23 01 11
+2026-08-18 16:26:51 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=0111
+2026-08-18 16:26:51 - INFO - Write DID for 0x0123 (value length: 4).
+2026-08-18 16:26:51 - INFO - RX: [String]  
+2026-08-18 16:26:51 - INFO - RX: [String] 62112 7E0: 05 2E 01 23 01 11 00 00 
+2026-08-18 16:26:51 - INFO - RX: [String] 62117 7E8: 03 7F 2E 13 00 00 00 00 
+2026-08-18 16:26:56 - INFO - RX: [String] IG OFF 
+2026-08-18 16:26:56 - INFO - RX: [String] -> IG ON 
+2026-08-18 16:27:03 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:27:03 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:27:03 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:27:03 - INFO - RX: [String]  
+2026-08-18 16:27:03 - INFO - RX: [String] 73620 7E0: 03 22 01 24 00 00 00 00 
+2026-08-18 16:27:03 - INFO - RX: [String] 73625 7E8: 04 62 01 24 20 00 00 00 
+2026-08-18 16:27:08 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:27:08 - INFO - TX: [Hex] 22 01 23
+2026-08-18 16:27:08 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 16:27:08 - INFO - RX: [String]  
+2026-08-18 16:27:08 - INFO - RX: [String] 78583 7E0: 03 22 01 23 00 00 00 00 
+2026-08-18 16:27:08 - INFO - RX: [String] 78588 7E8: 05 62 01 23 07 E0 00 00 
+2026-08-18 16:27:16 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 16:27:16 - INFO - TX: [Hex] 27 01
+2026-08-18 16:27:16 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 16:27:16 - INFO - RX: [String]  
+2026-08-18 16:27:16 - INFO - RX: [String] 86658 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 16:27:16 - INFO - RX: [String] 86663 7E8: 06 67 01 04 B4 78 D8 00 
+2026-08-18 16:27:16 - INFO - RX: [String]  
+2026-08-18 16:27:16 - INFO - RX: [String] 86718 7E0: 10 12 27 02 B0 2C A0 DC 
+2026-08-18 16:27:16 - INFO - RX: [String] 86723 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 16:27:16 - INFO - RX: [String] 86727 7E0: 21 B4 2C F8 DC 04 2C 58 
+2026-08-18 16:27:16 - INFO - RX: [String] 86732 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 16:27:16 - INFO - RX: [String] 86736 7E0: 22 DC 50 2C A0 DC 00 00 
+2026-08-18 16:27:16 - INFO - RX: [String] 86742 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 16:27:17 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 16:27:17 - INFO - TX: [Hex] 2E 01 23 01 11
+2026-08-18 16:27:17 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=0111
+2026-08-18 16:27:17 - INFO - Write DID for 0x0123 (value length: 4).
+2026-08-18 16:27:17 - INFO - RX: [String]  
+2026-08-18 16:27:17 - INFO - RX: [String] 88150 7E0: 05 2E 01 23 01 11 00 00 
+2026-08-18 16:27:17 - INFO - RX: [String] 88155 7E8: 03 7F 2E 13 00 00 00 00 
+2026-08-18 16:27:18 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:27:18 - INFO - TX: [Hex] 22 01 23
+2026-08-18 16:27:18 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 16:27:18 - INFO - RX: [String]  
+2026-08-18 16:27:18 - INFO - RX: [String] 89228 7E0: 03 22 01 23 00 00 00 00 
+2026-08-18 16:27:18 - INFO - RX: [String] 89233 7E8: 05 62 01 23 07 E0 00 00 
+2026-08-18 16:27:24 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 16:27:24 - INFO - TX: [Hex] 27 01
+2026-08-18 16:27:24 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 16:27:24 - INFO - RX: [String]  
+2026-08-18 16:27:24 - INFO - RX: [String] 95141 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 16:27:24 - INFO - RX: [String] 95146 7E8: 06 67 01 68 A7 FF 3F 00 
+2026-08-18 16:27:24 - INFO - RX: [String]  
+2026-08-18 16:27:24 - INFO - RX: [String] 95201 7E0: 10 12 27 02 CF A6 C0 A7 
+2026-08-18 16:27:24 - INFO - RX: [String] 95206 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 16:27:24 - INFO - RX: [String] 95210 7E0: 21 EF A6 FF A7 20 A6 3F 
+2026-08-18 16:27:24 - INFO - RX: [String] 95215 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 16:27:24 - INFO - RX: [String] 95219 7E0: 22 A7 C1 A6 C0 A7 00 00 
+2026-08-18 16:27:24 - INFO - RX: [String] 95225 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 16:27:26 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:27:26 - INFO - TX: [Hex] 22 01 23
+2026-08-18 16:27:26 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 16:27:26 - INFO - RX: [String]  
+2026-08-18 16:27:26 - INFO - RX: [String] 96934 7E0: 03 22 01 23 00 00 00 00 
+2026-08-18 16:27:26 - INFO - RX: [String] 96939 7E8: 05 62 01 23 07 E0 00 00 
+2026-08-18 16:27:28 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 16:27:28 - INFO - TX: [Hex] 2E 01 23 01 11
+2026-08-18 16:27:28 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=0111
+2026-08-18 16:27:28 - INFO - Write DID for 0x0123 (value length: 4).
+2026-08-18 16:27:28 - INFO - RX: [String]  
+2026-08-18 16:27:28 - INFO - RX: [String] 98562 7E0: 05 2E 01 23 01 11 00 00 
+2026-08-18 16:27:28 - INFO - RX: [String] 98567 7E8: 03 7F 2E 13 00 00 00 00 
+2026-08-18 16:29:04 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 16:29:04 - INFO - TX: [Hex] 27 01
+2026-08-18 16:29:04 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 16:29:04 - INFO - RX: [String]  
+2026-08-18 16:29:04 - INFO - RX: [String] 3253 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 16:29:04 - INFO - RX: [String] 3258 7E8: 06 67 01 2D CF 46 29 00 
+2026-08-18 16:29:04 - INFO - RX: [String]  
+2026-08-18 16:29:04 - INFO - RX: [String] 3313 7E0: 10 12 27 02 E2 15 6F 56 
+2026-08-18 16:29:04 - INFO - RX: [String] 3318 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 16:29:04 - INFO - RX: [String] 3322 7E0: 21 EF 15 6F 56 0D 15 00 
+2026-08-18 16:29:04 - INFO - RX: [String] 3327 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 16:29:04 - INFO - RX: [String] 3330 7E0: 22 56 5E 15 1D 56 00 00 
+2026-08-18 16:29:04 - INFO - RX: [String] 3336 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 16:29:05 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:29:05 - INFO - TX: [Hex] 22 01 23
+2026-08-18 16:29:05 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 16:29:05 - INFO - RX: [String]  
+2026-08-18 16:29:05 - INFO - RX: [String] 4200 7E0: 03 22 01 23 00 00 00 00 
+2026-08-18 16:29:05 - INFO - RX: [String] 4205 7E8: 05 62 01 23 07 E0 00 00 
+2026-08-18 16:29:07 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-08-18 16:29:07 - INFO - TX: [Hex] 27 01
+2026-08-18 16:29:07 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-08-18 16:29:07 - INFO - RX: [String]  
+2026-08-18 16:29:07 - INFO - RX: [String] 6944 7E0: 02 27 01 00 00 00 00 00 
+2026-08-18 16:29:07 - INFO - RX: [String] 6949 7E8: 06 67 01 04 B4 78 D8 00 
+2026-08-18 16:29:07 - INFO - RX: [String]  
+2026-08-18 16:29:07 - INFO - RX: [String] 7004 7E0: 10 12 27 02 B0 2C A0 DC 
+2026-08-18 16:29:07 - INFO - RX: [String] 7009 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 16:29:07 - INFO - RX: [String] 7013 7E0: 21 B4 2C F8 DC 04 2C 58 
+2026-08-18 16:29:07 - INFO - RX: [String] 7018 7E8: 30 01 00 00 00 00 00 00 
+2026-08-18 16:29:07 - INFO - RX: [String] 7022 7E0: 22 DC 50 2C A0 DC 00 00 
+2026-08-18 16:29:07 - INFO - RX: [String] 7027 7E8: 02 67 02 00 00 00 00 00 
+2026-08-18 16:29:10 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 16:29:10 - INFO - TX: [Hex] 2E 01 23 01 11
+2026-08-18 16:29:10 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=0111
+2026-08-18 16:29:10 - INFO - Write DID for 0x0123 (value length: 4).
+2026-08-18 16:29:10 - INFO - RX: [String]  
+2026-08-18 16:29:10 - INFO - RX: [String] 9265 7E0: 05 2E 01 23 01 11 00 00 
+2026-08-18 16:29:10 - INFO - RX: [String] 9270 7E8: 01 6E 00 00 00 00 00 00 
+2026-08-18 16:29:13 - INFO - RX: [String] IG OFF 
+2026-08-18 16:29:13 - INFO - RX: [String] -> IG ON 
+2026-08-18 16:29:14 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:29:14 - INFO - TX: [Hex] 22 01 23
+2026-08-18 16:29:14 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 16:29:15 - INFO - RX: [String]  
+2026-08-18 16:29:15 - INFO - RX: [String] 14141 111: 03 22 01 23 00 00 00 00 
+2026-08-18 16:29:15 - INFO - RX: [String] 14146 7E8: 05 62 01 23 01 11 00 00 
+2026-08-18 16:29:18 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:29:18 - INFO - TX: [Hex] 22 01 23
+2026-08-18 16:29:18 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-08-18 16:29:18 - INFO - RX: [String]  
+2026-08-18 16:29:18 - INFO - RX: [String] 17338 111: 03 22 01 23 00 00 00 00 
+2026-08-18 16:29:18 - INFO - RX: [String] 17343 7E8: 05 62 01 23 01 11 00 00 
+2026-08-18 16:29:22 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 16:29:22 - INFO - TX: [Hex] 2E 01 23 01 11
+2026-08-18 16:29:22 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=0111
+2026-08-18 16:29:22 - INFO - Write DID for 0x0123 (value length: 4).
+2026-08-18 16:29:22 - INFO - RX: [String]  
+2026-08-18 16:29:22 - INFO - RX: [String] 21331 111: 05 2E 01 23 01 11 00 00 
+2026-08-18 16:29:22 - INFO - RX: [String] 21336 7E8: 03 7F 2E 33 00 00 00 00 
+2026-08-18 16:29:28 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-08-18 16:29:28 - INFO - TX: [Hex] 22 01 24
+2026-08-18 16:29:28 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-08-18 16:29:28 - INFO - RX: [String]  
+2026-08-18 16:29:28 - INFO - RX: [String] 28110 111: 03 22 01 24 00 00 00 00 
+2026-08-18 16:29:28 - INFO - RX: [String] 28115 7E8: 04 62 01 24 1F 00 00 00 
+2026-08-18 16:35:18 - INFO - RX: [String] 0 0
+2026-08-18 16:38:36 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-08-18 16:38:36 - INFO - TX: [Hex] 2E 01 24 01 11
+2026-08-18 16:38:36 - INFO - UDS 0x2e Write DID request: DID=0x0124, Data=0111
+2026-08-18 16:38:36 - INFO - Write DID for 0x0124 (value length: 4).
+2026-09-08 16:35:50 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-08 16:35:50 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-08 16:35:50 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.0x2e_write_DID.
+2026-09-08 16:35:50 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-08 16:35:50 - WARNING - No COM ports detected.
+2026-09-08 16:35:50 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-09 14:37:31 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-09 14:37:31 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-09 14:37:31 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-09 14:37:31 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-09 14:37:31 - INFO - Available COM ports: COM8
+2026-09-09 14:37:31 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-09 14:37:50 - INFO - Connected to COM8 at 115200 baud.
+2026-09-09 14:37:52 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 14:37:52 - INFO - TX: [Hex] 22 01 23
+2026-09-09 14:37:52 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-09 14:37:52 - INFO - RX: [Hex] 62 01 23 00 00
+2026-09-09 14:37:53 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 14:37:53 - INFO - TX: [Hex] 22 01 23
+2026-09-09 14:37:53 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-09 14:37:53 - INFO - RX: [Hex] 62 01 23 00 00
+2026-09-09 14:39:04 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-09-09 14:39:04 - INFO - TX: [Hex] 27 01
+2026-09-09 14:39:04 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-09-09 14:39:04 - INFO - RX: [Hex] 67 01 00 03 DF 4B
+2026-09-09 14:42:03 - INFO - Calculated KEY: 03 E2 94 4B 00 00
+2026-09-09 14:42:03 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-09-09 14:42:03 - INFO - TX: [Hex] 27 02 03 E2 94 4B 00 00
+2026-09-09 14:42:03 - INFO - UDS 0x27 Security Access request: sub-function=0x02, data length=6
+2026-09-09 14:42:03 - INFO - RX: [Hex] 67 02
+2026-09-09 14:46:56 - WARNING - Invalid Write DID data: Data must be hexadecimal.
+2026-09-09 14:47:04 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-09-09 14:47:04 - INFO - TX: [Hex] 2E 01 23 05
+2026-09-09 14:47:04 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=05
+2026-09-09 14:47:04 - INFO - Write DID for 0x0123 (value length: 4).
+2026-09-09 14:47:04 - INFO - RX: [Hex] 7F 2E 33
+2026-09-09 14:47:29 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-09-09 14:47:29 - INFO - TX: [Hex] 2E 01 24 05
+2026-09-09 14:47:29 - INFO - UDS 0x2e Write DID request: DID=0x0124, Data=05
+2026-09-09 14:47:29 - INFO - Write DID for 0x0124 (value length: 4).
+2026-09-09 14:47:29 - INFO - RX: [Hex] 7F 2E 33
+2026-09-09 14:51:26 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-09 14:51:26 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-09 14:51:26 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-09 14:51:26 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-09 14:51:26 - INFO - Available COM ports: COM8
+2026-09-09 14:51:26 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-09 14:51:39 - INFO - Connected to COM8 at 115200 baud.
+2026-09-09 14:51:41 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-09-09 14:51:41 - INFO - TX: [Hex] 2E 01 23 05
+2026-09-09 14:51:41 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=05
+2026-09-09 14:51:41 - INFO - Write DID for 0x0123 (value length: 4).
+2026-09-09 14:51:41 - INFO - RX: [Hex] 7F 2E 33
+2026-09-09 14:51:43 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-09-09 14:51:43 - INFO - TX: [Hex] 2E 01 23 05
+2026-09-09 14:51:43 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=05
+2026-09-09 14:51:43 - INFO - Write DID for 0x0123 (value length: 4).
+2026-09-09 14:51:43 - INFO - RX: [Hex] 7F 2E 33
+2026-09-09 14:53:58 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-09-09 14:53:58 - INFO - TX: [Hex] 27 01
+2026-09-09 14:53:58 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-09-09 14:53:58 - INFO - RX: [Hex] 67 01 00 02 88 BB
+2026-09-09 14:54:05 - INFO - Calculated KEY: 02 8A 33 BB 00 00
+2026-09-09 14:54:05 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-09-09 14:54:05 - INFO - TX: [Hex] 27 02 02 8A 33 BB 00 00
+2026-09-09 14:54:05 - INFO - UDS 0x27 Security Access request: sub-function=0x02, data length=6
+2026-09-09 14:54:05 - INFO - RX: [Hex] 67 02
+2026-09-09 14:54:09 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-09-09 14:54:09 - INFO - TX: [Hex] 2E 01 23 05
+2026-09-09 14:54:09 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=05
+2026-09-09 14:54:09 - INFO - Write DID for 0x0123 (value length: 4).
+2026-09-09 14:54:09 - INFO - RX: [Hex] 6E 01 23
+2026-09-09 14:56:38 - INFO - RX: [String] IG OFF 
+2026-09-09 14:56:38 - INFO - RX: [String] -> IG ON 
+2026-09-09 14:56:58 - INFO - RX: [String] IG OFF 
+2026-09-09 14:56:59 - INFO - RX: [String] -> IG ON 
+2026-09-09 14:57:03 - INFO - RX: [String] IG OFF 
+2026-09-09 14:57:03 - INFO - RX: [String] -> IG ON 
+2026-09-09 14:57:03 - INFO - RX: [String] IG OFF 
+2026-09-09 14:57:03 - INFO - RX: [String] -> IG ON 
+2026-09-09 14:57:04 - INFO - RX: [String] IG OFF 
+2026-09-09 14:57:04 - INFO - RX: [String] -> IG ON 
+2026-09-09 14:57:04 - INFO - RX: [String] IG OFF 
+2026-09-09 14:57:04 - INFO - RX: [String] -> IG ON 
+2026-09-09 14:57:05 - INFO - RX: [String] IG OFF 
+2026-09-09 14:57:05 - INFO - RX: [String] -> IG ON 
+2026-09-09 14:57:23 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 14:57:23 - INFO - TX: [Hex] 22 01 23
+2026-09-09 14:57:23 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-09 14:57:24 - INFO - RX: [Hex] 62 01 23 05 F0
+2026-09-09 15:20:07 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-09 15:20:07 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-09 15:20:07 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-09 15:20:07 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-09 15:20:07 - INFO - Available COM ports: COM8
+2026-09-09 15:20:07 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-09 15:20:09 - INFO - Connected to COM8 at 115200 baud.
+2026-09-09 15:20:11 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 15:20:11 - INFO - TX: [Hex] 22 01 23
+2026-09-09 15:20:11 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-09 15:20:11 - INFO - RX: [Hex] 62 01 23 05 F0
+2026-09-09 15:20:14 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 15:20:14 - INFO - TX: [Hex] 22 01 24
+2026-09-09 15:20:14 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-09 15:20:14 - INFO - RX: [Hex] 62 01 24 03 D4
+2026-09-09 15:21:56 - INFO - RX: [String] IG OFF 
+2026-09-09 15:21:57 - INFO - RX: [String] -> IG ON 
+2026-09-09 15:23:10 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 15:23:10 - INFO - TX: [Hex] 22 01 23
+2026-09-09 15:23:10 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-09 15:23:10 - INFO - RX: [Hex] 62 01 23 05 F0
+2026-09-09 15:23:14 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 15:23:14 - INFO - TX: [Hex] 22 01 24
+2026-09-09 15:23:14 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-09 15:23:14 - INFO - RX: [Hex] 62 01 24 03 D5
+2026-09-09 15:24:38 - ERROR - Serial read failed: ClearCommError failed (PermissionError(13, 'The device does not recognize the command.', None, 22))
+2026-09-09 15:24:50 - INFO - Connected to COM8 at 115200 baud.
+2026-09-09 15:24:50 - INFO - Disconnected.
+2026-09-09 15:24:53 - INFO - Connected to COM8 at 115200 baud.
+2026-09-09 15:25:48 - INFO - Disconnected.
+2026-09-09 15:25:49 - INFO - Connected to COM8 at 115200 baud.
+2026-09-09 15:25:56 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-09 15:25:56 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-09 15:25:56 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-09 15:25:56 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-09 15:25:56 - INFO - Available COM ports: COM8
+2026-09-09 15:25:56 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-09 15:26:01 - INFO - Connected to COM8 at 115200 baud.
+2026-09-09 15:26:04 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 15:26:04 - INFO - TX: [Hex] 22 01 23
+2026-09-09 15:26:04 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-09 15:26:04 - INFO - RX: [Hex] 62 01 23 05 F0
+2026-09-09 15:26:08 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 15:26:08 - INFO - TX: [Hex] 22 01 24
+2026-09-09 15:26:08 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-09 15:26:08 - INFO - RX: [Hex] 62 01 24 03 D7
+2026-09-09 15:28:02 - INFO - RX: [String] 0 0
+2026-09-09 15:28:29 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-09-09 15:28:29 - INFO - TX: [Hex] 2E 01 23 05 00
+2026-09-09 15:28:29 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=0500
+2026-09-09 15:28:29 - INFO - Write DID for 0x0123 (value length: 6).
+2026-09-09 15:28:29 - INFO - RX: [Hex] 7F 2E 33
+2026-09-09 15:28:34 - INFO - RX: [String] IG OFF 
+2026-09-09 15:28:34 - INFO - RX: [String] -> IG ON 
+2026-09-09 15:28:43 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 15:28:43 - INFO - TX: [Hex] 22 01 23
+2026-09-09 15:28:43 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-09 15:28:44 - INFO - RX: [Hex] 62 01 23 00 00
+2026-09-09 15:29:44 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 15:29:44 - INFO - TX: [Hex] 22 01 23
+2026-09-09 15:29:44 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-09 15:29:44 - INFO - RX: [Hex] 62 01 23 00 00
+2026-09-09 15:29:51 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 15:29:51 - INFO - TX: [Hex] 22 01 24
+2026-09-09 15:29:51 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-09 15:29:51 - INFO - RX: [Hex] 62 01 24 03 D6
+2026-09-09 15:30:13 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-09 15:30:13 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-09 15:30:13 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-09 15:30:13 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-09 15:30:13 - INFO - Available COM ports: COM8
+2026-09-09 15:30:13 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-09 15:30:50 - INFO - Connected to COM8 at 115200 baud.
+2026-09-09 15:30:51 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 15:30:51 - INFO - TX: [Hex] 22 01 23
+2026-09-09 15:30:51 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-09 15:30:51 - INFO - RX: [Hex] 62 01 23 00 00
+2026-09-09 15:30:53 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 15:30:53 - INFO - TX: [Hex] 22 01 24
+2026-09-09 15:30:53 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-09 15:30:54 - INFO - RX: [Hex] 62 01 24 03 D0
+2026-09-09 15:31:01 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-09-09 15:31:01 - INFO - TX: [Hex] 2E 01 23 05 00
+2026-09-09 15:31:01 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=0500
+2026-09-09 15:31:01 - INFO - Write DID for 0x0123 (value length: 5).
+2026-09-09 15:31:01 - INFO - RX: [Hex] 7F 2E 33
+2026-09-09 15:31:03 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-09-09 15:31:03 - INFO - TX: [Hex] 27 01
+2026-09-09 15:31:03 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-09-09 15:31:04 - INFO - RX: [Hex] 67 01 00 02 C5 72
+2026-09-09 15:31:09 - INFO - Calculated KEY: 02 C7 B7 72 00 00
+2026-09-09 15:31:09 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-09-09 15:31:09 - INFO - TX: [Hex] 27 02 02 C7 B7 72 00 00
+2026-09-09 15:31:09 - INFO - UDS 0x27 Security Access request: sub-function=0x02, data length=6
+2026-09-09 15:31:09 - INFO - RX: [Hex] 67 02
+2026-09-09 15:31:24 - INFO - Disconnected.
+2026-09-09 15:31:25 - INFO - Connected to COM8 at 115200 baud.
+2026-09-09 15:31:27 - INFO - Disconnected.
+2026-09-09 15:31:28 - INFO - Available COM ports: COM8
+2026-09-09 15:31:29 - INFO - Available COM ports: COM8
+2026-09-09 15:31:36 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-09 15:31:36 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-09 15:31:36 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-09 15:31:36 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-09 15:31:36 - INFO - Available COM ports: COM8
+2026-09-09 15:31:36 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-09 15:31:43 - INFO - Connected to COM8 at 115200 baud.
+2026-09-09 15:31:45 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 15:31:45 - INFO - TX: [Hex] 22 01 23
+2026-09-09 15:31:45 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-09 15:31:45 - INFO - RX: [Hex] 62 01 23 00 00
+2026-09-09 15:31:48 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 15:31:48 - INFO - TX: [Hex] 22 01 24
+2026-09-09 15:31:48 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-09 15:31:48 - INFO - RX: [Hex] 62 01 24 03 D2
+2026-09-09 15:31:53 - INFO - RX: [String] 0 0
+2026-09-09 15:32:10 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-09-09 15:32:10 - INFO - TX: [Hex] 2E 01 23 05 00
+2026-09-09 15:32:10 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=0500
+2026-09-09 15:32:10 - INFO - Write DID for 0x0123 (value length: 5).
+2026-09-09 15:32:10 - INFO - RX: [Hex] 7F 2E 33
+2026-09-09 15:32:14 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-09-09 15:32:14 - INFO - TX: [Hex] 27 01
+2026-09-09 15:32:14 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-09-09 15:32:14 - INFO - RX: [Hex] 67 01 00 00 53 15
+2026-09-09 15:32:19 - INFO - Calculated KEY: 00 53 46 15 00 00
+2026-09-09 15:32:19 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-09-09 15:32:19 - INFO - TX: [Hex] 27 02 00 53 46 15 00 00
+2026-09-09 15:32:19 - INFO - UDS 0x27 Security Access request: sub-function=0x02, data length=6
+2026-09-09 15:32:19 - INFO - RX: [Hex] 67 02
+2026-09-09 15:32:29 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-09-09 15:32:29 - INFO - TX: [Hex] 2E 01 23 05 00
+2026-09-09 15:32:29 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=0500
+2026-09-09 15:32:29 - INFO - Write DID for 0x0123 (value length: 5).
+2026-09-09 15:32:29 - INFO - RX: [Hex] 6E 01 23
+2026-09-09 15:32:32 - INFO - RX: [String] IG OFF 
+2026-09-09 15:32:33 - INFO - RX: [String] -> IG ON 
+2026-09-09 15:32:38 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-09 15:32:38 - INFO - TX: [Hex] 22 01 23
+2026-09-09 15:32:38 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-09 15:32:38 - INFO - RX: [Hex] 62 01 23 05 00
+2026-09-09 15:37:37 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-09-09 15:37:37 - INFO - TX: [Hex] 27 01
+2026-09-09 15:37:37 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-09-09 15:37:37 - INFO - RX: [Hex] 67 01 00 05 3F 8E
+2026-09-09 15:37:44 - INFO - Calculated KEY: 00 53 46 15 00 00
+2026-09-09 15:37:44 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-09-09 15:37:44 - INFO - TX: [Hex] 27 02 00 53 46 15 00 00
+2026-09-09 15:37:44 - INFO - UDS 0x27 Security Access request: sub-function=0x02, data length=6
+2026-09-09 15:37:44 - INFO - RX: [Hex] 7F 27 35
+2026-09-09 15:39:10 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-09-09 15:39:10 - INFO - TX: [Hex] 27 01
+2026-09-09 15:39:10 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-09-09 15:39:10 - INFO - RX: [Hex] 67 01 00 06 AA 4E
+2026-09-09 15:39:18 - INFO - Calculated KEY: 06 B0 E4 4E 00 00
+2026-09-09 15:39:18 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-09-09 15:39:18 - INFO - TX: [Hex] 27 02 06 B0 E4 4E 00 00
+2026-09-09 15:39:18 - INFO - UDS 0x27 Security Access request: sub-function=0x02, data length=6
+2026-09-09 15:39:18 - INFO - RX: [Hex] 67 02
+2026-09-09 15:39:25 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-09-09 15:39:25 - INFO - TX: [Hex] 2E 01 23 FF FF
+2026-09-09 15:39:25 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=FFFF
+2026-09-09 15:39:25 - INFO - Write DID for 0x0123 (value length: 6).
+2026-09-09 15:39:25 - INFO - RX: [Hex] 6E 01 23

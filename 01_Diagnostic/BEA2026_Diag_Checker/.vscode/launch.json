@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug BEA_DiagChecker",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/BEA_DiagChecker.py",
+            "python": "C:\\toolbase\\python\\3.12.13.1\\python.exe",
+            "console": "integratedTerminal",
+            "purpose": ["debug-test"]
+        }
+    ]
+}
