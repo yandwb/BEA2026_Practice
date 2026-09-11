@@ -294,6 +294,8 @@ extern uint8_t can2_rx_data[8];
 extern uint8_t can2_rx_crc;
 extern uint8_t can2_rx_crc_ok;
 
+uint32_t can2_rx_id = 0x012; // Global variable to store received ID
+
 void CAN2_RX0_IRQHandler(void)
 {
   /* USER CODE BEGIN CAN2_RX0_IRQn 0 */
@@ -303,7 +305,7 @@ void CAN2_RX0_IRQHandler(void)
   /* USER CODE BEGIN CAN2_RX0_IRQn 1 */
 	HAL_CAN_GetRxMessage(&hcan2, CAN_RX_FIFO0, &CAN2_pHeaderRx, CAN2_DATA_RX);
 
-  if (CAN2_pHeaderRx.StdId == 0x012) {
+  if (CAN2_pHeaderRx.StdId != 0x0A2) {
       uint8_t calc_crc = Calc_CRC_SAE_J1850(CAN2_DATA_RX, 6);
       uint8_t crc_ok = (calc_crc == CAN2_DATA_RX[6]);
 
@@ -311,6 +313,7 @@ void CAN2_RX0_IRQHandler(void)
       for(int i=0; i<8; i++) can2_rx_data[i] = CAN2_DATA_RX[i];
       can2_rx_crc = CAN2_DATA_RX[6];
       can2_rx_crc_ok = crc_ok;
+      can2_rx_id = CAN2_pHeaderRx.StdId;
       flag_new_can2_rx = 1;
 
       if(crc_ok) {
