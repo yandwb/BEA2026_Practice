@@ -378,9 +378,8 @@ void LCD_UpdateNode2(uint8_t is_tx, uint8_t *data, uint8_t crc, uint8_t crc_ok)
         LCD_FillRect(0, 80, 240, 8, LCD_BLACK);
         LCD_DrawString(0, 80, buf, LCD_WHITE, LCD_BLACK, 1);
     } else {
-        extern uint32_t can2_rx_id;
-        sprintf(buf, "RX %03X: %02X %02X %02X %02X %02X %02X %02X %02X", 
-                (unsigned int)can2_rx_id, data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7]);
+        sprintf(buf, "RX 012: %02X %02X %02X %02X %02X %02X %02X %02X", 
+                data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7]);
         LCD_FillRect(0, 88, 240, 8, LCD_BLACK);
         LCD_DrawString(0, 88, buf, LCD_WHITE, LCD_BLACK, 1);
         
