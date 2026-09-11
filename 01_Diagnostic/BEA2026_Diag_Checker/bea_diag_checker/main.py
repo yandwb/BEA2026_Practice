@@ -2,10 +2,18 @@
 
 from __future__ import annotations
 
+import sys
 import tkinter as tk
+from pathlib import Path
 
-from .ui.main_window import BEADiagChecker
-
+if __name__ == "__main__":
+    # Support running directly from IDE
+    pkg_dir = Path(__file__).resolve().parent.parent
+    if str(pkg_dir) not in sys.path:
+        sys.path.insert(0, str(pkg_dir))
+    from bea_diag_checker.ui.main_window import BEADiagChecker
+else:
+    from .ui.main_window import BEADiagChecker
 
 def main() -> None:
     """Start the BEA Diag Checker window."""
@@ -18,9 +26,7 @@ def main() -> None:
     BEADiagChecker(root)
     root.mainloop()
 
-
 __all__ = ["main"]
-
 
 if __name__ == "__main__":
     main()
