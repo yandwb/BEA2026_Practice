@@ -268,6 +268,8 @@ class SerialManager:
                 text = data.decode("utf-8", errors="replace")
                 lines = text.splitlines() or [text]
                 for line in lines:
+                    if "TX " in line:
+                        continue  # Bỏ qua các dòng log CAN
                     self._logger.info("RX: [String] %s", line)
             else:
                 self._logger.info("RX: [Hex] %s", data.hex(" ").upper())
