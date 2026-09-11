@@ -2270,3 +2270,100 @@
 2026-09-11 07:33:56 - INFO - RX: [String] 423610 012: 01 84 85 00 00 00 C0 00
 2026-09-11 07:33:56 - INFO - RX: [String] 423708 012: 01 84 85 00 00 00 C0 00
 2026-09-11 07:33:57 - INFO - Disconnected.
+2026-09-11 07:38:35 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-11 07:38:35 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-11 07:38:35 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-11 07:38:35 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-11 07:38:36 - INFO - Available COM ports: COM8
+2026-09-11 07:38:36 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-11 07:38:39 - INFO - Connected to COM8 at 115200 baud.
+2026-09-11 07:38:39 - INFO - RX: [String] 706578 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:38:39 - INFO - RX: [String] 706677 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:38:39 - INFO - RX: [String] 706775 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:38:40 - INFO - RX: [String] 706874 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:38:40 - INFO - RX: [String] 706973 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:38:40 - INFO - RX: [String] 707072 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:38:40 - INFO - RX: [String] 707170 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:38:40 - INFO - RX: [String] 707269 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:38:40 - INFO - RX: [String] 707368 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:38:40 - INFO - RX: [String] 707466 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:38:40 - INFO - RX: [String] 707565 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:38:40 - INFO - RX: [String] 707664 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:38:40 - INFO - RX: [String] 707763 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:38:41 - INFO - Disconnected.
+2026-09-11 07:39:43 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-11 07:39:43 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-11 07:39:43 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-11 07:39:43 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-11 07:39:43 - INFO - Available COM ports: COM8
+2026-09-11 07:39:43 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-11 07:39:46 - INFO - Connected to COM8 at 115200 baud.
+2026-09-11 07:39:46 - INFO - RX: [String] 773025 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:39:46 - INFO - RX: [String] 773124 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:39:46 - INFO - RX: [String] 773223 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:39:46 - INFO - RX: [String] 773321 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:39:46 - INFO - RX: [String] 773420 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:39:46 - INFO - RX: [String] 773519 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:39:46 - INFO - RX: [String] 773617 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:39:46 - INFO - RX: [String] 773716 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:39:47 - INFO - RX: [String] 773815 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:39:47 - INFO - RX: [String] 773914 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:39:47 - INFO - RX: [String] 774012 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:39:47 - INFO - RX: [String] 774111 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:39:47 - INFO - Disconnected.
+2026-09-11 07:41:16 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-11 07:41:16 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-11 07:41:16 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-11 07:41:16 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-11 07:41:16 - INFO - Available COM ports: COM8
+2026-09-11 07:41:16 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-11 07:45:53 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-11 07:45:53 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-11 07:45:53 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-11 07:45:53 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-11 07:45:53 - INFO - Available COM ports: COM8
+2026-09-11 07:45:53 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-11 07:48:26 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-11 07:48:26 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-11 07:48:26 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-11 07:48:26 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-11 07:48:26 - INFO - Available COM ports: COM8
+2026-09-11 07:48:26 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-11 07:48:28 - INFO - Connected to COM8 at 115200 baud.
+2026-09-11 07:48:28 - INFO - RX: [String] 1295906 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:48:29 - INFO - RX: [String] 1296005 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:48:29 - INFO - RX: [String] 1296104 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:48:29 - INFO - RX: [String] 1296203 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:48:29 - INFO - RX: [String] 1296301 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:48:29 - INFO - RX: [String] 1296400 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:48:29 - INFO - RX: [String] 1296499 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:48:29 - INFO - RX: [String] 1296598 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:48:29 - INFO - RX: [String] 1296697 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:48:29 - INFO - RX: [String] 1296796 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:48:29 - INFO - RX: [String] 1296894 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:48:30 - INFO - RX: [String] 1296993 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:48:30 - INFO - Disconnected.
+2026-09-11 07:49:51 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-11 07:49:51 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-11 07:49:51 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-11 07:49:51 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-11 07:49:51 - INFO - Available COM ports: COM8
+2026-09-11 07:49:51 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-11 07:49:52 - INFO - Connected to COM8 at 115200 baud.
+2026-09-11 07:49:52 - INFO - RX: [String] 1379911 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:53 - INFO - RX: [String] 1380010 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:53 - INFO - RX: [String] 1380109 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:53 - INFO - RX: [String] 1380207 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:53 - INFO - RX: [String] 1380306 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:53 - INFO - RX: [String] 1380405 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:53 - INFO - RX: [String] 1380504 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:53 - INFO - RX: [String] 1380603 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:53 - INFO - RX: [String] 1380702 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:53 - INFO - RX: [String] 1380800 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:53 - INFO - RX: [String] 1380899 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:54 - INFO - RX: [String] 1380998 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:54 - INFO - RX: [String] 1381097 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:54 - INFO - RX: [String] 1381196 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:54 - INFO - RX: [String] 1381295 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:54 - INFO - RX: [String] 1381393 012: 01 84 85 00 00 00 C0 00
+2026-09-11 07:49:54 - INFO - Disconnected.

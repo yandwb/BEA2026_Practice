@@ -268,7 +268,7 @@ class SerialManager:
                 text = data.decode("utf-8", errors="replace")
                 lines = text.splitlines() or [text]
                 for line in lines:
-                    if "TX " in line:
+                    if " 0A2:" in line or " 012:" in line:
                         continue  # Bỏ qua các dòng log CAN
                     self._logger.info("RX: [String] %s", line)
             else:
