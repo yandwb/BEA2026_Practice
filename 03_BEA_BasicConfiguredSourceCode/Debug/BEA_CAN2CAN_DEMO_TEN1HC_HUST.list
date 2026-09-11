@@ -3490,9 +3490,9 @@ static void MX_CAN1_Init(void)
  8001a88:	4b18      	ldr	r3, [pc, #96]	@ (8001aec <MX_CAN1_Init+0x68>)
  8001a8a:	4a19      	ldr	r2, [pc, #100]	@ (8001af0 <MX_CAN1_Init+0x6c>)
  8001a8c:	601a      	str	r2, [r3, #0]
-  hcan1.Init.Prescaler = 21;
+  hcan1.Init.Prescaler = 6;
  8001a8e:	4b17      	ldr	r3, [pc, #92]	@ (8001aec <MX_CAN1_Init+0x68>)
- 8001a90:	2215      	movs	r2, #21
+ 8001a90:	2206      	movs	r2, #6
  8001a92:	605a      	str	r2, [r3, #4]
   hcan1.Init.Mode = CAN_MODE_NORMAL;
  8001a94:	4b15      	ldr	r3, [pc, #84]	@ (8001aec <MX_CAN1_Init+0x68>)
@@ -3502,13 +3502,13 @@ static void MX_CAN1_Init(void)
  8001a9a:	4b14      	ldr	r3, [pc, #80]	@ (8001aec <MX_CAN1_Init+0x68>)
  8001a9c:	f04f 7280 	mov.w	r2, #16777216	@ 0x1000000
  8001aa0:	60da      	str	r2, [r3, #12]
-  hcan1.Init.TimeSeg1 = CAN_BS1_12TQ;
+  hcan1.Init.TimeSeg1 = CAN_BS1_10TQ;
  8001aa2:	4b12      	ldr	r3, [pc, #72]	@ (8001aec <MX_CAN1_Init+0x68>)
- 8001aa4:	f44f 2230 	mov.w	r2, #720896	@ 0xb0000
+ 8001aa4:	f44f 2210 	mov.w	r2, #589824	@ 0x90000
  8001aa8:	611a      	str	r2, [r3, #16]
-  hcan1.Init.TimeSeg2 = CAN_BS2_4TQ;
+  hcan1.Init.TimeSeg2 = CAN_BS2_3TQ;
  8001aaa:	4b10      	ldr	r3, [pc, #64]	@ (8001aec <MX_CAN1_Init+0x68>)
- 8001aac:	f44f 1240 	mov.w	r2, #3145728	@ 0x300000
+ 8001aac:	f44f 1200 	mov.w	r2, #2097152	@ 0x200000
  8001ab0:	615a      	str	r2, [r3, #20]
   hcan1.Init.TimeTriggeredMode = DISABLE;
  8001ab2:	4b0e      	ldr	r3, [pc, #56]	@ (8001aec <MX_CAN1_Init+0x68>)
@@ -3573,9 +3573,9 @@ static void MX_CAN2_Init(void)
  8001af8:	4b18      	ldr	r3, [pc, #96]	@ (8001b5c <MX_CAN2_Init+0x68>)
  8001afa:	4a19      	ldr	r2, [pc, #100]	@ (8001b60 <MX_CAN2_Init+0x6c>)
  8001afc:	601a      	str	r2, [r3, #0]
-  hcan2.Init.Prescaler = 21;
+  hcan2.Init.Prescaler = 6;
  8001afe:	4b17      	ldr	r3, [pc, #92]	@ (8001b5c <MX_CAN2_Init+0x68>)
- 8001b00:	2215      	movs	r2, #21
+ 8001b00:	2206      	movs	r2, #6
  8001b02:	605a      	str	r2, [r3, #4]
   hcan2.Init.Mode = CAN_MODE_NORMAL;
  8001b04:	4b15      	ldr	r3, [pc, #84]	@ (8001b5c <MX_CAN2_Init+0x68>)
@@ -3585,13 +3585,13 @@ static void MX_CAN2_Init(void)
  8001b0a:	4b14      	ldr	r3, [pc, #80]	@ (8001b5c <MX_CAN2_Init+0x68>)
  8001b0c:	f04f 7280 	mov.w	r2, #16777216	@ 0x1000000
  8001b10:	60da      	str	r2, [r3, #12]
-  hcan2.Init.TimeSeg1 = CAN_BS1_12TQ;
+  hcan2.Init.TimeSeg1 = CAN_BS1_10TQ;
  8001b12:	4b12      	ldr	r3, [pc, #72]	@ (8001b5c <MX_CAN2_Init+0x68>)
- 8001b14:	f44f 2230 	mov.w	r2, #720896	@ 0xb0000
+ 8001b14:	f44f 2210 	mov.w	r2, #589824	@ 0x90000
  8001b18:	611a      	str	r2, [r3, #16]
-  hcan2.Init.TimeSeg2 = CAN_BS2_4TQ;
+  hcan2.Init.TimeSeg2 = CAN_BS2_3TQ;
  8001b1a:	4b10      	ldr	r3, [pc, #64]	@ (8001b5c <MX_CAN2_Init+0x68>)
- 8001b1c:	f44f 1240 	mov.w	r2, #3145728	@ 0x300000
+ 8001b1c:	f44f 1200 	mov.w	r2, #2097152	@ 0x200000
  8001b20:	615a      	str	r2, [r3, #20]
   hcan2.Init.TimeTriggeredMode = DISABLE;
  8001b22:	4b0e      	ldr	r3, [pc, #56]	@ (8001b5c <MX_CAN2_Init+0x68>)
