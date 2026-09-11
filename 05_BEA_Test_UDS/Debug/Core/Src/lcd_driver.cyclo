@@ -1,0 +1,15 @@
+../Core/Src/lcd_driver.c:110:13:spi_write_byte	3
+../Core/Src/lcd_driver.c:120:13:lcd_write_cmd	1
+../Core/Src/lcd_driver.c:127:13:lcd_write_data8	1
+../Core/Src/lcd_driver.c:134:13:lcd_write_data16	1
+../Core/Src/lcd_driver.c:143:13:lcd_set_window	1
+../Core/Src/lcd_driver.c:157:13:lcd_gpio_init	1
+../Core/Src/lcd_driver.c:192:6:LCD_Init	1
+../Core/Src/lcd_driver.c:261:6:LCD_Clear	2
+../Core/Src/lcd_driver.c:274:6:LCD_FillRect	2
+../Core/Src/lcd_driver.c:287:6:LCD_DrawChar	7
+../Core/Src/lcd_driver.c:318:6:LCD_DrawString	2
+../Core/Src/lcd_driver.c:331:6:LCD_InitDashboard	1
+../Core/Src/lcd_driver.c:356:6:LCD_UpdateNode1	2
+../Core/Src/lcd_driver.c:372:6:LCD_UpdateNode2	4
+../Core/Src/lcd_driver.c:397:6:LCD_AddLog	3
