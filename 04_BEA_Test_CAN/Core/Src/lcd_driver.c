@@ -400,18 +400,14 @@ void LCD_AddLog(uint8_t *data)
     sprintf(buf, " RX 0A2: %02X %02X %02X %02X %02X %02X %02X %02X", 
             data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7]);
     
-    if (log_count < LOG_MAX_LINES) {
-        strcpy(log_lines[log_count], buf);
-        LCD_DrawString(0, 136 + log_count * 8, log_lines[log_count], LCD_WHITE, LCD_BLACK, 1);
-        log_count++;
-    } else {
-        /* Scroll up all lines */
-        for(int i = 0; i < LOG_MAX_LINES - 1; i++) {
-            strcpy(log_lines[i], log_lines[i+1]);
-            LCD_DrawString(0, 136 + i * 8, log_lines[i], LCD_WHITE, LCD_BLACK, 1);
-        }
-        /* Insert new line at bottom */
-        strcpy(log_lines[LOG_MAX_LINES - 1], buf);
-        LCD_DrawString(0, 136 + (LOG_MAX_LINES - 1) * 8, log_lines[LOG_MAX_LINES - 1], LCD_WHITE, LCD_BLACK, 1);
+    if (log_count >= LOG_MAX_LINES) {
+        log_count = 0;
     }
+    
+    // Clear the specific line
+    LCD_FillRect(0, 136 + log_count * 8, 240, 8, LCD_BLACK);
+    // Draw the new line
+    LCD_DrawString(0, 136 + log_count * 8, buf, LCD_WHITE, LCD_BLACK, 1);
+    
+    log_count++;
 }

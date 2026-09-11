@@ -204,7 +204,11 @@ int main(void)
         CAN2_pHeader.DLC = 8;
         HAL_CAN_AddTxMessage(&hcan2, &CAN2_pHeader, CAN2_DATA_TX, &CAN2_pTxMailbox);
         
-        LCD_UpdateNode2(1, CAN2_DATA_TX, 0, 0); // is_tx=1
+        static uint32_t last_tx2_lcd = 0;
+        if (current_tick - last_tx2_lcd >= 100) {
+            last_tx2_lcd = current_tick;
+            LCD_UpdateNode2(1, CAN2_DATA_TX, 0, 0); // is_tx=1
+        }
     }
     
     /* NODE 1: Transmit 0x012 every 50ms */
@@ -226,24 +230,32 @@ int main(void)
         // CAN1_pHeader.DLC = 8;
         HAL_CAN_AddTxMessage(&hcan1, &CAN1_pHeader, CAN1_DATA_TX, &CAN1_pTxMailbox);
         
-        LCD_UpdateNode1(1, CAN1_DATA_TX); // is_tx=1
+        static uint32_t last_tx1_lcd = 0;
+        if (current_tick - last_tx1_lcd >= 100) {
+            last_tx1_lcd = current_tick;
+            LCD_UpdateNode1(1, CAN1_DATA_TX); // is_tx=1
+        }
         
         /* UART Log for 2 points */
         PrintCANLog(CAN1_pHeader.StdId, CAN1_DATA_TX);
     }
     
     /* Handle deferred LCD updates from CAN ISRs (prevent SPI re-entrancy) */
-    if (flag_new_can1_rx) {
-        flag_new_can1_rx = 0;
-        LCD_UpdateNode1(0, can1_rx_data);
-    }
-    if (flag_new_can1_log) {
-        flag_new_can1_log = 0;
-        // LCD_AddLog(can1_log_data); /* DISABLED: This function scrolls 22 lines on SPI LCD and blocks MCU for 800ms! */
-    }
-    if (flag_new_can2_rx) {
-        flag_new_can2_rx = 0;
-        LCD_UpdateNode2(0, can2_rx_data, can2_rx_crc, can2_rx_crc_ok);
+    static uint32_t last_rx_lcd = 0;
+    if (current_tick - last_rx_lcd >= 100) {
+        last_rx_lcd = current_tick;
+        if (flag_new_can1_rx) {
+            flag_new_can1_rx = 0;
+            LCD_UpdateNode1(0, can1_rx_data);
+        }
+        if (flag_new_can1_log) {
+            flag_new_can1_log = 0;
+            LCD_AddLog(can1_log_data); // Re-enabled with wrap-around optimization!
+        }
+        if (flag_new_can2_rx) {
+            flag_new_can2_rx = 0;
+            LCD_UpdateNode2(0, can2_rx_data, can2_rx_crc, can2_rx_crc_ok);
+        }
     }
 
     if(!BtnU) /*IG OFF->ON stimulation*/
