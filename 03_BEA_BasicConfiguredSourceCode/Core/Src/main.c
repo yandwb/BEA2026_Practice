@@ -219,10 +219,11 @@ int main(void)
         CAN1_DATA_TX[6] = Calc_CRC_SAE_J1850(CAN1_DATA_TX, 6);
         CAN1_DATA_TX[7] = 0x00;
         
-        CAN1_pHeader.StdId = 0x012;
-        CAN1_pHeader.IDE = CAN_ID_STD;
-        CAN1_pHeader.RTR = CAN_RTR_DATA;
-        CAN1_pHeader.DLC = 8;
+        // Removed hardcoded CAN1_pHeader so UDS changes persist
+        // CAN1_pHeader.StdId = 0x012; 
+        // CAN1_pHeader.IDE = CAN_ID_STD;
+        // CAN1_pHeader.RTR = CAN_RTR_DATA;
+        // CAN1_pHeader.DLC = 8;
         HAL_CAN_AddTxMessage(&hcan1, &CAN1_pHeader, CAN1_DATA_TX, &CAN1_pTxMailbox);
         
         LCD_UpdateNode1(1, CAN1_DATA_TX); // is_tx=1
@@ -576,6 +577,12 @@ void MX_CAN1_Setup()
 	HAL_CAN_ConfigFilter(&hcan1, &CAN1_sFilterConfig);
 	HAL_CAN_Start(&hcan1);
 	HAL_CAN_ActivateNotification(&hcan1, CAN_IT_RX_FIFO0_MSG_PENDING);
+
+    /* Initialize CAN1 Tx Header Defaults */
+    CAN1_pHeader.StdId = 0x012;
+    CAN1_pHeader.IDE = CAN_ID_STD;
+    CAN1_pHeader.RTR = CAN_RTR_DATA;
+    CAN1_pHeader.DLC = 8;
 }
 void MX_CAN2_Setup()
 {

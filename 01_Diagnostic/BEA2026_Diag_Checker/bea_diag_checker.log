@@ -2498,3 +2498,53 @@
 2026-09-11 08:15:58 - INFO - TX: [Hex] 22 01 24
 2026-09-11 08:15:58 - INFO - UDS 0x22 Read DID request: DID=0x0124
 2026-09-11 08:15:59 - INFO - RX: [Hex] 62 01 24 00 00
+2026-09-11 08:20:47 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-11 08:20:47 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-11 08:20:47 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-11 08:20:47 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-11 08:20:47 - INFO - Available COM ports: COM8
+2026-09-11 08:20:47 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-11 08:20:49 - INFO - Connected to COM8 at 115200 baud.
+2026-09-11 08:20:50 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:20:50 - INFO - TX: [Hex] 22 01 23
+2026-09-11 08:20:50 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-11 08:20:51 - INFO - RX: [Hex] 62 01 23 00 12
+2026-09-11 08:20:53 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:20:53 - INFO - TX: [Hex] 22 01 24
+2026-09-11 08:20:53 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-11 08:20:54 - INFO - RX: [Hex] 62 01 24 03 B9
+2026-09-11 08:20:55 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:20:55 - INFO - TX: [Hex] 22 01 24
+2026-09-11 08:20:55 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-11 08:20:55 - INFO - RX: [Hex] 62 01 24 03 BA
+2026-09-11 08:20:56 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:20:56 - INFO - TX: [Hex] 22 01 24
+2026-09-11 08:20:56 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-11 08:20:57 - INFO - RX: [Hex] 62 01 24 03 C0
+2026-09-11 08:21:03 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-09-11 08:21:03 - INFO - TX: [Hex] 27 01
+2026-09-11 08:21:03 - INFO - UDS 0x27 Security Access request: sub-function=0x01, data length=0
+2026-09-11 08:21:03 - INFO - RX: [Hex] 67 01 00 00 5F 39
+2026-09-11 08:21:09 - INFO - Calculated KEY: 00 5F 66 39 00 00
+2026-09-11 08:21:09 - DEBUG - Processing diagnostic service 0x27 (security_access).
+2026-09-11 08:21:09 - INFO - TX: [Hex] 27 02 00 5F 66 39 00 00
+2026-09-11 08:21:09 - INFO - UDS 0x27 Security Access request: sub-function=0x02, data length=6
+2026-09-11 08:21:10 - INFO - RX: [Hex] 67 02
+2026-09-11 08:21:19 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-09-11 08:21:19 - INFO - TX: [Hex] 2E 01 23 05
+2026-09-11 08:21:19 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=05
+2026-09-11 08:21:19 - INFO - Write DID for 0x0123 (value length: 6).
+2026-09-11 08:21:19 - INFO - RX: [Hex] 6E 01 23
+2026-09-11 08:23:42 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:23:42 - INFO - TX: [Hex] 22 01 23
+2026-09-11 08:23:42 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-11 08:23:43 - INFO - RX: [Hex] 62 01 23 00 12
+2026-09-11 08:23:50 - DEBUG - Processing diagnostic service 0x2E (write_DID).
+2026-09-11 08:23:50 - INFO - TX: [Hex] 2E 01 23 05
+2026-09-11 08:23:50 - INFO - UDS 0x2e Write DID request: DID=0x0123, Data=05
+2026-09-11 08:23:50 - INFO - Write DID for 0x0123 (value length: 6).
+2026-09-11 08:23:51 - INFO - RX: [Hex] 6E 01 23
+2026-09-11 08:23:56 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:23:56 - INFO - TX: [Hex] 22 01 23
+2026-09-11 08:23:56 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-11 08:23:57 - INFO - RX: [Hex] 62 01 23 00 12
