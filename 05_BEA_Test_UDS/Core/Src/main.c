@@ -90,7 +90,7 @@ uint8_t node1_val0 = 0x00;
 uint8_t node1_val1 = 0x00;
 uint8_t node2_counter = 0x00;
 uint32_t tick_50ms = 0;
-uint32_t tick_50ms_node2 = 0;
+uint32_t tick_20ms = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -168,7 +168,7 @@ int main(void)
   __HAL_UART_ENABLE_IT(&huart3, UART_IT_RXNE);
   HAL_ADC_Start_DMA(&hadc1, (uint32_t*)g_TemperatureSensorRawValue_u16, 1);
   tick_50ms = HAL_GetTick();
-  tick_50ms_node2 = HAL_GetTick();
+  tick_20ms = HAL_GetTick();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -180,9 +180,9 @@ int main(void)
     /* USER CODE BEGIN 3 */
     uint32_t current_tick = HAL_GetTick();
     
-    /* NODE 2: Transmit 0x0A2 every 50ms */
-    if (current_tick - tick_50ms_node2 >= 50) {
-        tick_50ms_node2 += 50;
+    /* NODE 2: Transmit 0x0A2 every 20ms */
+    if (current_tick - tick_20ms >= 20) {
+        tick_20ms += 20;
         static uint8_t dynamic_val0 = 0x00;
         static uint8_t dynamic_val1 = 0x50;
         
