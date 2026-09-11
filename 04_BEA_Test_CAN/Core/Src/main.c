@@ -239,7 +239,7 @@ int main(void)
     }
     if (flag_new_can1_log) {
         flag_new_can1_log = 0;
-        LCD_AddLog(can1_log_data);
+        // LCD_AddLog(can1_log_data); /* DISABLED: This function scrolls 22 lines on SPI LCD and blocks MCU for 800ms! */
     }
     if (flag_new_can2_rx) {
         flag_new_can2_rx = 0;
