@@ -12,6 +12,6 @@
 ../Core/Src/main.c:619:6:HAL_ADC_ConvCpltCallback	1
 ../Core/Src/main.c:623:6:USART3_SendString	2
 ../Core/Src/main.c:631:6:PrintCANLog	1
-../Core/Src/main.c:640:6:HAL_UART_RxCpltCallback	1
-../Core/Src/main.c:646:6:delay	1
-../Core/Src/main.c:656:6:Error_Handler	1
+../Core/Src/main.c:641:6:HAL_UART_RxCpltCallback	1
+../Core/Src/main.c:647:6:delay	1
+../Core/Src/main.c:657:6:Error_Handler	1

@@ -11,7 +11,7 @@
 ../Core/Src/main.c:603:9:Calc_CRC_SAE_J1850	24	static
 ../Core/Src/main.c:619:6:HAL_ADC_ConvCpltCallback	16	static
 ../Core/Src/main.c:623:6:USART3_SendString	16	static
-../Core/Src/main.c:631:6:PrintCANLog	184	static
-../Core/Src/main.c:640:6:HAL_UART_RxCpltCallback	16	static
-../Core/Src/main.c:646:6:delay	16	static
-../Core/Src/main.c:656:6:Error_Handler	4	static,ignoring_inline_asm
+../Core/Src/main.c:631:6:PrintCANLog	16	static
+../Core/Src/main.c:641:6:HAL_UART_RxCpltCallback	16	static
+../Core/Src/main.c:647:6:delay	16	static
+../Core/Src/main.c:657:6:Error_Handler	4	static,ignoring_inline_asm

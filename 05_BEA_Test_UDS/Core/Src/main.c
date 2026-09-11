@@ -180,9 +180,9 @@ int main(void)
     /* USER CODE BEGIN 3 */
     uint32_t current_tick = HAL_GetTick();
     
-    /* NODE 2: Transmit 0x0A2 every 20ms */
-    if (current_tick - tick_20ms >= 20) {
-        tick_20ms = current_tick;
+    /* NODE 2: Transmit 0x0A2 every 50ms */
+    if (current_tick - tick_50ms_node2 >= 50) {
+        tick_50ms_node2 += 50;
         static uint8_t dynamic_val0 = 0x00;
         static uint8_t dynamic_val1 = 0x50;
         
@@ -209,7 +209,7 @@ int main(void)
     
     /* NODE 1: Transmit 0x012 every 50ms */
     if (current_tick - tick_50ms >= 50) {
-        tick_50ms = current_tick;
+        tick_50ms += 50;
         CAN1_DATA_TX[0] = node1_val0;
         CAN1_DATA_TX[1] = node1_val1;
         CAN1_DATA_TX[2] = node1_val0 + node1_val1;
