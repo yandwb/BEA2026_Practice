@@ -260,19 +260,30 @@ class SerialManager:
             if not data:
                 continue
 
-            data = remove_frame_markers(data)
-            if not data:
-                continue
-
-            if all(byte in (9, 10, 13) or 32 <= byte <= 126 for byte in data):
-                text = data.decode("utf-8", errors="replace")
-                lines = text.splitlines() or [text]
-                for line in lines:
-                    if " 0A2:" in line or " 012:" in line:
-                        continue  # Bỏ qua các dòng log CAN
-                    self._logger.info("RX: [String] %s", line)
+            from ..config.constants import END_OF_FRAME
+            
+            parts = []
+            if END_OF_FRAME in data and not data.strip(b'\r\n').endswith(END_OF_FRAME):
+                idx = data.find(END_OF_FRAME) + len(END_OF_FRAME)
+                parts.append(data[:idx])
+                parts.append(data[idx:])
             else:
-                self._logger.info("RX: [Hex] %s", data.hex(" ").upper())
+                parts.append(data)
+
+            for part in parts:
+                part = remove_frame_markers(part)
+                if not part:
+                    continue
+
+                if all(byte in (9, 10, 13) or 32 <= byte <= 126 for byte in part):
+                    text = part.decode("utf-8", errors="replace")
+                    lines = text.splitlines() or [text]
+                    for line in lines:
+                        if " 0A2:" in line or " 012:" in line:
+                            continue  # Bỏ qua các dòng log CAN
+                        self._logger.info("RX: [String] %s", line)
+                else:
+                    self._logger.info("RX: [Hex] %s", part.hex(" ").upper())
 
     def _mark_connection_lost(self, connection: SerialConnection) -> None:
         """Invalidate a connection and notify the UI without touching Tk."""
