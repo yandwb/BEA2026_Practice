@@ -2437,3 +2437,64 @@
 2026-09-11 07:58:55 - INFO - TX: [Hex] 22 01 24
 2026-09-11 07:58:55 - INFO - UDS 0x22 Read DID request: DID=0x0124
 2026-09-11 07:58:56 - INFO - RX: [Hex] 62 01 24 00 00
+2026-09-11 08:14:58 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-11 08:14:58 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-11 08:14:58 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-11 08:14:58 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-11 08:14:58 - INFO - Available COM ports: COM8
+2026-09-11 08:14:58 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-11 08:15:00 - INFO - Connected to COM8 at 115200 baud.
+2026-09-11 08:15:04 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:15:04 - INFO - TX: [Hex] 22 01 23
+2026-09-11 08:15:04 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-11 08:15:04 - INFO - RX: [Hex] 62 01 23 00 12
+2026-09-11 08:15:08 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:15:08 - INFO - TX: [Hex] 22 01 24
+2026-09-11 08:15:08 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-11 08:15:09 - INFO - RX: [Hex] 62 01 24 00 00
+2026-09-11 08:15:10 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:15:10 - INFO - TX: [Hex] 22 01 24
+2026-09-11 08:15:10 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-11 08:15:10 - INFO - RX: [Hex] 62 01 24 00 00
+2026-09-11 08:15:11 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:15:11 - INFO - TX: [Hex] 22 01 24
+2026-09-11 08:15:11 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-11 08:15:12 - INFO - RX: [Hex] 62 01 24 00 00
+2026-09-11 08:15:27 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-11 08:15:27 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-11 08:15:27 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-11 08:15:27 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-11 08:15:27 - INFO - Available COM ports: COM8
+2026-09-11 08:15:27 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-11 08:15:29 - INFO - Connected to COM8 at 115200 baud.
+2026-09-11 08:15:32 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:15:32 - INFO - TX: [Hex] 22 01 24
+2026-09-11 08:15:32 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-11 08:15:32 - INFO - RX: [Hex] 62 01 24 00 00
+2026-09-11 08:15:33 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:15:33 - INFO - TX: [Hex] 22 01 24
+2026-09-11 08:15:33 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-11 08:15:33 - INFO - RX: [Hex] 62 01 24 00 00
+2026-09-11 08:15:34 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:15:34 - INFO - TX: [Hex] 22 01 24
+2026-09-11 08:15:34 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-11 08:15:34 - INFO - RX: [Hex] 62 01 24 00 00
+2026-09-11 08:15:49 - DEBUG - Registered diagnostic service 0x22 - read_DID.
+2026-09-11 08:15:49 - DEBUG - Registered diagnostic service 0x27 - security_access.
+2026-09-11 08:15:49 - DEBUG - Registered diagnostic service 0x2E - write_DID.
+2026-09-11 08:15:49 - DEBUG - Skipping non-service module bea_diag_checker.core.Diagnostic.codec.
+2026-09-11 08:15:50 - INFO - Available COM ports: COM8
+2026-09-11 08:15:50 - INFO - Ready - Python 3.13.9, pyserial 3.5
+2026-09-11 08:15:51 - INFO - Connected to COM8 at 115200 baud.
+2026-09-11 08:15:53 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:15:53 - INFO - TX: [Hex] 22 01 23
+2026-09-11 08:15:53 - INFO - UDS 0x22 Read DID request: DID=0x0123
+2026-09-11 08:15:53 - INFO - RX: [Hex] 62 01 23 00 12
+2026-09-11 08:15:57 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:15:57 - INFO - TX: [Hex] 22 01 24
+2026-09-11 08:15:57 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-11 08:15:57 - INFO - RX: [Hex] 62 01 24 00 00
+2026-09-11 08:15:58 - DEBUG - Processing diagnostic service 0x22 (read_DID).
+2026-09-11 08:15:58 - INFO - TX: [Hex] 22 01 24
+2026-09-11 08:15:58 - INFO - UDS 0x22 Read DID request: DID=0x0124
+2026-09-11 08:15:59 - INFO - RX: [Hex] 62 01 24 00 00
