@@ -252,8 +252,6 @@ void CAN1_RX0_IRQHandler(void)
       }
       flag_new_can1_rx = 1;
       flag_new_can1_log = 1;
-
-      PrintCANLog(CAN1_pHeaderRx.StdId, CAN1_DATA_RX);
   }
   /* USER CODE END CAN1_RX0_IRQn 1 */
 }
@@ -316,8 +314,6 @@ void CAN2_RX0_IRQHandler(void)
       if(crc_ok) {
           HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
       }
-
-      PrintCANLog(CAN2_pHeaderRx.StdId, CAN2_DATA_RX);
   }
   /* USER CODE END CAN2_RX0_IRQn 1 */
 }

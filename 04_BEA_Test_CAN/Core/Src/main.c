@@ -117,6 +117,8 @@ uint8_t Calc_CRC_SAE_J1850(uint8_t *data, uint8_t len);
 /* USER CODE BEGIN 0 */
 volatile uint8_t flag_new_can1_log = 0;
 volatile uint8_t flag_can_ready = 0; // Prevent SysTick crash during boot
+volatile uint8_t flag_print_node1_tx = 0;
+volatile uint32_t timestamp_node1_tx = 0;
 uint8_t can1_log_data[8];
 volatile uint8_t flag_new_can1_rx = 0;
 uint8_t can1_rx_data[8];
@@ -204,12 +206,22 @@ int main(void)
         }
         if (flag_new_can1_log) {
             flag_new_can1_log = 0;
-            LCD_AddLog(can1_log_data); // Re-enabled with wrap-around optimization!
+            LCD_AddLog(can1_log_data);
         }
         if (flag_new_can2_rx) {
             flag_new_can2_rx = 0;
             LCD_UpdateNode2(0, can2_rx_data, can2_rx_crc, can2_rx_crc_ok);
         }
+    }
+
+    if (flag_print_node1_tx) {
+        flag_print_node1_tx = 0;
+        char buf[100];
+        sprintf(buf, "%u %03X: %02X %02X %02X %02X %02X %02X %02X %02X\r\n", 
+                (unsigned int)timestamp_node1_tx, 0x012, 
+                CAN1_DATA_TX[0], CAN1_DATA_TX[1], CAN1_DATA_TX[2], CAN1_DATA_TX[3], 
+                CAN1_DATA_TX[4], CAN1_DATA_TX[5], CAN1_DATA_TX[6], CAN1_DATA_TX[7]);
+        USART3_SendString((uint8_t*)buf);
     }
 
     if(!BtnU) /*IG OFF->ON stimulation*/
@@ -661,6 +673,9 @@ void HAL_SYSTICK_Callback(void)
         CAN1_DATA_TX[7] = 0x00;
         
         HAL_CAN_AddTxMessage(&hcan1, &CAN1_pHeader, CAN1_DATA_TX, &CAN1_pTxMailbox);
+        
+        flag_print_node1_tx = 1;
+        timestamp_node1_tx = TimeStamp;
     }
 }
 /* USER CODE END 4 */
