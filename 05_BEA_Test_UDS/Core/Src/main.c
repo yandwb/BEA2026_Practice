@@ -117,8 +117,12 @@ uint8_t Calc_CRC_SAE_J1850(uint8_t *data, uint8_t len);
 /* USER CODE BEGIN 0 */
 volatile uint8_t flag_new_can1_log = 0;
 volatile uint8_t flag_can_ready = 0; // Prevent SysTick crash during boot
-volatile uint8_t flag_print_node1_tx = 0;
-volatile uint32_t timestamp_node1_tx = 0;
+
+#define TX_QUEUE_SIZE 16
+volatile uint32_t tx_timestamps[TX_QUEUE_SIZE];
+volatile uint8_t tx_data_queue[TX_QUEUE_SIZE][8];
+volatile uint8_t tx_queue_head = 0;
+volatile uint8_t tx_queue_tail = 0;
 uint8_t can1_log_data[8];
 volatile uint8_t flag_new_can1_rx = 0;
 uint8_t can1_rx_data[8];
@@ -214,14 +218,16 @@ int main(void)
         }
     }
 
-    if (flag_print_node1_tx) {
-        flag_print_node1_tx = 0;
+    while (tx_queue_tail != tx_queue_head) {
         char buf[100];
         sprintf(buf, "%u %03X: %02X %02X %02X %02X %02X %02X %02X %02X\r\n", 
-                (unsigned int)timestamp_node1_tx, 0x012, 
-                CAN1_DATA_TX[0], CAN1_DATA_TX[1], CAN1_DATA_TX[2], CAN1_DATA_TX[3], 
-                CAN1_DATA_TX[4], CAN1_DATA_TX[5], CAN1_DATA_TX[6], CAN1_DATA_TX[7]);
+                (unsigned int)tx_timestamps[tx_queue_tail], 0x012, 
+                tx_data_queue[tx_queue_tail][0], tx_data_queue[tx_queue_tail][1], 
+                tx_data_queue[tx_queue_tail][2], tx_data_queue[tx_queue_tail][3], 
+                tx_data_queue[tx_queue_tail][4], tx_data_queue[tx_queue_tail][5], 
+                tx_data_queue[tx_queue_tail][6], tx_data_queue[tx_queue_tail][7]);
         USART3_SendString((uint8_t*)buf);
+        tx_queue_tail = (tx_queue_tail + 1) % TX_QUEUE_SIZE;
     }
 
     if(!BtnU) /*IG OFF->ON stimulation*/
@@ -675,8 +681,12 @@ void HAL_SYSTICK_Callback(void)
         
         HAL_CAN_AddTxMessage(&hcan1, &CAN1_pHeader, CAN1_DATA_TX, &CAN1_pTxMailbox);
         
-        flag_print_node1_tx = 1;
-        timestamp_node1_tx = TimeStamp;
+        uint8_t next_head = (tx_queue_head + 1) % TX_QUEUE_SIZE;
+        if (next_head != tx_queue_tail) {
+            tx_timestamps[tx_queue_head] = TimeStamp;
+            for (int i=0; i<8; i++) tx_data_queue[tx_queue_head][i] = CAN1_DATA_TX[i];
+            tx_queue_head = next_head;
+        }
     }
 }
 /* USER CODE END 4 */

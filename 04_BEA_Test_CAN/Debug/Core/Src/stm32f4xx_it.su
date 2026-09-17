@@ -9,6 +9,6 @@
 ../Core/Src/stm32f4xx_it.c:191:6:SysTick_Handler	8	static
 ../Core/Src/stm32f4xx_it.c:216:6:EXTI0_IRQHandler	8	static
 ../Core/Src/stm32f4xx_it.c:235:6:CAN1_RX0_IRQHandler	16	static
-../Core/Src/stm32f4xx_it.c:264:6:USART3_IRQHandler	8	static
-../Core/Src/stm32f4xx_it.c:278:6:DMA2_Stream0_IRQHandler	8	static
-../Core/Src/stm32f4xx_it.c:297:6:CAN2_RX0_IRQHandler	16	static
+../Core/Src/stm32f4xx_it.c:262:6:USART3_IRQHandler	8	static
+../Core/Src/stm32f4xx_it.c:276:6:DMA2_Stream0_IRQHandler	8	static
+../Core/Src/stm32f4xx_it.c:295:6:CAN2_RX0_IRQHandler	16	static
