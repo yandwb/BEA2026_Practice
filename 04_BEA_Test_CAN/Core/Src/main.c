@@ -116,6 +116,7 @@ uint8_t Calc_CRC_SAE_J1850(uint8_t *data, uint8_t len);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 volatile uint8_t flag_new_can1_log = 0;
+volatile uint8_t flag_can_ready = 0; // Prevent SysTick crash during boot
 uint8_t can1_log_data[8];
 volatile uint8_t flag_new_can1_rx = 0;
 uint8_t can1_rx_data[8];
@@ -165,6 +166,7 @@ int main(void)
   LCD_InitDashboard();
   MX_CAN1_Setup();
   MX_CAN2_Setup();
+  flag_can_ready = 1;
   __HAL_UART_ENABLE_IT(&huart3, UART_IT_RXNE);
   HAL_ADC_Start_DMA(&hadc1, (uint32_t*)g_TemperatureSensorRawValue_u16, 1);
   tick_50ms = HAL_GetTick();
@@ -614,6 +616,8 @@ void delay(uint16_t delay)
 
 void HAL_SYSTICK_Callback(void)
 {
+    if (!flag_can_ready) return;
+    
     static uint32_t sys_tick_20ms = 0;
     static uint32_t sys_tick_50ms = 0;
     

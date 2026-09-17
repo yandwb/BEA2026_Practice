@@ -199,7 +199,7 @@ void SysTick_Handler(void)
   /*Support to print time stamp in CAN log*/
   TimeStamp ++;
 
-
+  HAL_SYSTICK_Callback();
   /* USER CODE END SysTick_IRQn 1 */
 }
 
