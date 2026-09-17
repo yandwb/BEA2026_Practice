@@ -12,4 +12,4 @@
 ../Core/Src/lcd_driver.c:331:6:LCD_InitDashboard	1
 ../Core/Src/lcd_driver.c:356:6:LCD_UpdateNode1	2
 ../Core/Src/lcd_driver.c:372:6:LCD_UpdateNode2	4
-../Core/Src/lcd_driver.c:397:6:LCD_AddLog	3
+../Core/Src/lcd_driver.c:397:6:LCD_AddLog	2

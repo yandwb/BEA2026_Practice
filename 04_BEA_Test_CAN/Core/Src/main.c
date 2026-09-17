@@ -180,64 +180,16 @@ int main(void)
     /* USER CODE BEGIN 3 */
     uint32_t current_tick = HAL_GetTick();
     
-    /* NODE 2: Transmit 0x0A2 every 20ms */
-    if (current_tick - tick_20ms >= 20) {
-        tick_20ms += 20;
-        static uint8_t dynamic_val0 = 0x00;
-        static uint8_t dynamic_val1 = 0x50;
-        
-        CAN2_DATA_TX[0] = dynamic_val0++;
-        CAN2_DATA_TX[1] = dynamic_val1;
-        if (dynamic_val0 % 10 == 0) dynamic_val1++; // Value1 tăng chậm hơn Value0
-        
-        CAN2_DATA_TX[2] = 0x00;
-        CAN2_DATA_TX[3] = 0x00;
-        CAN2_DATA_TX[4] = 0x00;
-        CAN2_DATA_TX[5] = 0x00;
-        CAN2_DATA_TX[6] = Calc_CRC_SAE_J1850(CAN2_DATA_TX, 6);
-        CAN2_DATA_TX[7] = node2_counter++;
-        if (node2_counter > 14) node2_counter = 0;
-        
-        CAN2_pHeader.StdId = 0x0A2;
-        CAN2_pHeader.IDE = CAN_ID_STD;
-        CAN2_pHeader.RTR = CAN_RTR_DATA;
-        CAN2_pHeader.DLC = 8;
-        HAL_CAN_AddTxMessage(&hcan2, &CAN2_pHeader, CAN2_DATA_TX, &CAN2_pTxMailbox);
-        
-        static uint32_t last_tx2_lcd = 0;
-        if (current_tick - last_tx2_lcd >= 100) {
-            last_tx2_lcd = current_tick;
-            LCD_UpdateNode2(1, CAN2_DATA_TX, 0, 0); // is_tx=1
-        }
+    static uint32_t last_tx2_lcd = 0;
+    if (current_tick - last_tx2_lcd >= 100) {
+        last_tx2_lcd = current_tick;
+        LCD_UpdateNode2(1, CAN2_DATA_TX, 0, 0); // is_tx=1
     }
     
-    /* NODE 1: Transmit 0x012 every 50ms */
-    if (current_tick - tick_50ms >= 50) {
-        tick_50ms += 50;
-        CAN1_DATA_TX[0] = node1_val0;
-        CAN1_DATA_TX[1] = node1_val1;
-        CAN1_DATA_TX[2] = node1_val0 + node1_val1;
-        CAN1_DATA_TX[3] = 0x00;
-        CAN1_DATA_TX[4] = 0x00;
-        CAN1_DATA_TX[5] = 0x00;
-        CAN1_DATA_TX[6] = Calc_CRC_SAE_J1850(CAN1_DATA_TX, 6);
-        CAN1_DATA_TX[7] = 0x00;
-        
-        // Removed hardcoded CAN1_pHeader so UDS changes persist
-        // CAN1_pHeader.StdId = 0x012; 
-        // CAN1_pHeader.IDE = CAN_ID_STD;
-        // CAN1_pHeader.RTR = CAN_RTR_DATA;
-        // CAN1_pHeader.DLC = 8;
-        HAL_CAN_AddTxMessage(&hcan1, &CAN1_pHeader, CAN1_DATA_TX, &CAN1_pTxMailbox);
-        
-        static uint32_t last_tx1_lcd = 0;
-        if (current_tick - last_tx1_lcd >= 100) {
-            last_tx1_lcd = current_tick;
-            LCD_UpdateNode1(1, CAN1_DATA_TX); // is_tx=1
-        }
-        
-        /* UART Log for 2 points */
-        PrintCANLog(CAN1_pHeader.StdId, CAN1_DATA_TX);
+    static uint32_t last_tx1_lcd = 0;
+    if (current_tick - last_tx1_lcd >= 100) {
+        last_tx1_lcd = current_tick;
+        LCD_UpdateNode1(1, CAN1_DATA_TX); // is_tx=1
     }
     
     /* Handle deferred LCD updates from CAN ISRs (prevent SPI re-entrancy) */
@@ -658,6 +610,54 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 void delay(uint16_t delay)
 {
 	HAL_Delay(delay);
+}
+
+void HAL_SYSTICK_Callback(void)
+{
+    static uint32_t sys_tick_20ms = 0;
+    static uint32_t sys_tick_50ms = 0;
+    
+    sys_tick_20ms++;
+    if (sys_tick_20ms >= 20) {
+        sys_tick_20ms = 0;
+        
+        static uint8_t dynamic_val0 = 0x00;
+        static uint8_t dynamic_val1 = 0x50;
+        
+        CAN2_DATA_TX[0] = dynamic_val0++;
+        CAN2_DATA_TX[1] = dynamic_val1;
+        if (dynamic_val0 % 10 == 0) dynamic_val1++; // Value1 tăng chậm hơn Value0
+        
+        CAN2_DATA_TX[2] = 0x00;
+        CAN2_DATA_TX[3] = 0x00;
+        CAN2_DATA_TX[4] = 0x00;
+        CAN2_DATA_TX[5] = 0x00;
+        CAN2_DATA_TX[6] = Calc_CRC_SAE_J1850(CAN2_DATA_TX, 6);
+        CAN2_DATA_TX[7] = node2_counter++;
+        if (node2_counter > 14) node2_counter = 0;
+        
+        CAN2_pHeader.StdId = 0x0A2;
+        CAN2_pHeader.IDE = CAN_ID_STD;
+        CAN2_pHeader.RTR = CAN_RTR_DATA;
+        CAN2_pHeader.DLC = 8;
+        HAL_CAN_AddTxMessage(&hcan2, &CAN2_pHeader, CAN2_DATA_TX, &CAN2_pTxMailbox);
+    }
+    
+    sys_tick_50ms++;
+    if (sys_tick_50ms >= 50) {
+        sys_tick_50ms = 0;
+        
+        CAN1_DATA_TX[0] = node1_val0;
+        CAN1_DATA_TX[1] = node1_val1;
+        CAN1_DATA_TX[2] = node1_val0 + node1_val1;
+        CAN1_DATA_TX[3] = 0x00;
+        CAN1_DATA_TX[4] = 0x00;
+        CAN1_DATA_TX[5] = 0x00;
+        CAN1_DATA_TX[6] = Calc_CRC_SAE_J1850(CAN1_DATA_TX, 6);
+        CAN1_DATA_TX[7] = 0x00;
+        
+        HAL_CAN_AddTxMessage(&hcan1, &CAN1_pHeader, CAN1_DATA_TX, &CAN1_pTxMailbox);
+    }
 }
 /* USER CODE END 4 */
 
